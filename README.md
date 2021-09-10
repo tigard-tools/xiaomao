@@ -8,7 +8,7 @@ I have two labs that are best suited for using a microcontroller as a tool
 
 In the past I've used:
 * teensy - this is expensive overkill and requires a bit of additional software
-* arduino pro mini - cheap, but requires uart programming
+* arduino pro mini - cheap, but requires uart programming and only 1 uart is difficult for implant testing
 * arduino pro micro - more expensive, usb mini, and not 1.8v sensitive unless it's a 3.3v 8mhz version
 
 Xiao is small, cheap, 1.8v sensitive, usb-c, and easily supported in arduino (and circuitpython). There are also other devices with the same footprint.
@@ -16,8 +16,25 @@ Xiao is small, cheap, 1.8v sensitive, usb-c, and easily supported in arduino (an
 # hardware requirements
 * power/ground/gpio pin compatibility with tigard harnesses
 * tx/rx compatibility with tigard uart harness
-* 6+ GPIO pins with series resistors for at least a little io protection
+* 6+ GPIO pins with series resistors for at least a little io protection (200 ohm series resistance)
 * bonus: acces to swd pins for future debug labs
+
+# usage
+## jtagulating
+1. setup arduino with proper [board files](https://wiki.seeedstudio.com/Seeeduino-XIAO/#software)
+2. flash [jtagenum](https://github.com/cyphunk/JTAGenum) or [jtagscan](https://github.com/szymonh/JTAGscan)
+3. connect tigard's JTAG harness to the JTAG header
+4. connect GND and GPIO's to target
+5. screen /dev/ttyACM0 115200
+6. run jtag search and check results
+
+## implanting
+1. setup arduino with proper [board files](https://wiki.seeedstudio.com/Seeeduino-XIAO/#software)
+2. flash Examples->04.Communication->SerialPassthrough
+3. connect tigard's UART harness to the UART header
+4. Short TX and RX for testing
+5. screen /dev/ttyACM0 115200
+6. confirm data loopback, then modify sketch to passively tap TX to RX traffic over USB
 
 ## Connections
 ### 'JTAG' header
