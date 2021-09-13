@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Xiao)(type KiCad)(uri "/home/franklin/src/xiaotagulator/Seeeduino XIAO KICAD")(options "")(descr ""))
+  (lib (name xiaotagulator)(type KiCad)(uri /home/franklin/src/xiaotagulator)(options "")(descr ""))
+)

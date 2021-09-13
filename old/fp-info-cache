@@ -1,4 +1,4 @@
-19231794504738014
+19216658291413596
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -76292,111 +76292,6 @@ rotary encoder
 0
 5
 4
-Seeeduino XIAO_v1.0_191112
-C0402
-<b>0402<b><p>
-
-0
-2
-2
-Seeeduino XIAO_v1.0_191112
-C0603
-<b>0603<b><p>
-
-0
-2
-2
-Seeeduino XIAO_v1.0_191112
-H7-HALF-HOLE-2.54
-
-
-0
-14
-14
-Seeeduino XIAO_v1.0_191112
-LED-0402
-
-
-0
-2
-2
-Seeeduino XIAO_v1.0_191112
-OSHW_FILLX200_NOTEXT
-
-
-0
-0
-0
-Seeeduino XIAO_v1.0_191112
-QFN48-7X7
-
-
-0
-49
-49
-Seeeduino XIAO_v1.0_191112
-R0402
-<b>0402<b><p>
-
-0
-2
-2
-Seeeduino XIAO_v1.0_191112
-SEEED-SILK-280*268MIL
-
-
-0
-0
-0
-Seeeduino XIAO_v1.0_191112
-SHIELDING-COVER-12.3X11.9X0.2MM
-
-
-0
-6
-6
-Seeeduino XIAO_v1.0_191112
-SOD323
-<b>0805<b><p>
-
-0
-2
-2
-Seeeduino XIAO_v1.0_191112
-SOT-23
-<b>SOT23</b>
-
-0
-3
-3
-Seeeduino XIAO_v1.0_191112
-TP-80X40MIL
-
-
-0
-1
-1
-Seeeduino XIAO_v1.0_191112
-TP-D45MIL
-
-
-0
-1
-1
-Seeeduino XIAO_v1.0_191112
-USB2.0-TYPE-C
-
-
-0
-18
-18
-Seeeduino XIAO_v1.0_191112
-X2-SMD-L2.0X1.2X0.55MM
-
-
-0
-2
-2
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -81262,97 +81157,6 @@ THT Terminal Block WAGO 804-324 45Degree pitch 7.5mm size 179x15mm^2 drill 1.2mm
 0
 48
 24
-TerminalBlock_Wuerth
-Wuerth_REDCUBE-THR_WP-THRBU_74650073_THR
-REDCUBE THR with internal through-hole thread WP-THRBU (https://www.we-online.de/katalog/datasheet/74650073.pdf)
-screw terminal thread redcube thr power connector
-0
-8
-1
-TerminalBlock_Wuerth
-Wuerth_REDCUBE-THR_WP-THRBU_74650074_THR
-REDCUBE THR with internal through-hole thread WP-THRBU (https://www.we-online.de/katalog/datasheet/74650074.pdf)
-screw terminal thread redcube thr power connector
-0
-8
-1
-TerminalBlock_Wuerth
-Wuerth_REDCUBE-THR_WP-THRBU_74650094_THR
-REDCUBE THR with internal through-hole thread WP-THRBU (https://www.we-online.de/katalog/datasheet/74650094.pdf)
-screw terminal thread redcube thr power connector
-0
-16
-1
-TerminalBlock_Wuerth
-Wuerth_REDCUBE-THR_WP-THRBU_74650173_THR
-REDCUBE THR with internal through-hole thread WP-THRBU (https://www.we-online.de/katalog/datasheet/74650173.pdf)
-screw terminal thread redcube thr power connector
-0
-8
-1
-TerminalBlock_Wuerth
-Wuerth_REDCUBE-THR_WP-THRBU_74650174_THR
-REDCUBE THR with internal through-hole thread WP-THRBU (https://www.we-online.de/katalog/datasheet/74650174.pdf)
-screw terminal thread redcube thr power connector
-0
-8
-1
-TerminalBlock_Wuerth
-Wuerth_REDCUBE-THR_WP-THRBU_74650194_THR
-REDCUBE THR with internal through-hole thread WP-THRBU (https://www.we-online.de/katalog/datasheet/74650194.pdf)
-screw terminal thread redcube thr power connector
-0
-18
-1
-TerminalBlock_Wuerth
-Wuerth_REDCUBE-THR_WP-THRBU_74650195_THR
-REDCUBE THR with internal through-hole thread WP-THRBU (https://www.we-online.de/katalog/datasheet/74650195.pdf)
-screw terminal thread redcube thr power connector
-0
-18
-1
-TerminalBlock_Wuerth
-Wuerth_REDCUBE-THR_WP-THRBU_74655095_THR
-REDCUBE THR with internal through-hole thread WP-THRBU (https://www.we-online.de/katalog/datasheet/74655095.pdf)
-screw terminal thread redcube thr power connector
-0
-16
-1
-TerminalBlock_Wuerth
-Wuerth_REDCUBE-THR_WP-THRSH_74651173_THR
-REDCUBE THR with internal through-hole thread WP-THRSH (https://www.we-online.de/katalog/datasheet/74651173.pdf)
-screw terminal thread redcube thr power connector
-0
-8
-1
-TerminalBlock_Wuerth
-Wuerth_REDCUBE-THR_WP-THRSH_74651174_THR
-REDCUBE THR with internal through-hole thread WP-THRSH (https://www.we-online.de/katalog/datasheet/74651174.pdf)
-screw terminal thread redcube thr power connector
-0
-8
-1
-TerminalBlock_Wuerth
-Wuerth_REDCUBE-THR_WP-THRSH_74651175_THR
-REDCUBE THR with internal through-hole thread WP-THRSH (https://www.we-online.de/katalog/datasheet/74651175.pdf)
-screw terminal thread redcube thr power connector
-0
-8
-1
-TerminalBlock_Wuerth
-Wuerth_REDCUBE-THR_WP-THRSH_74651194_THR
-REDCUBE THR with internal through-hole thread WP-THRSH (https://www.we-online.de/katalog/datasheet/74651194.pdf)
-screw terminal thread redcube thr power connector
-0
-18
-1
-TerminalBlock_Wuerth
-Wuerth_REDCUBE-THR_WP-THRSH_74651195_THR
-REDCUBE THR with internal through-hole thread WP-THRSH (https://www.we-online.de/katalog/datasheet/74651195.pdf)
-screw terminal thread redcube thr power connector
-0
-18
-1
 TestPoint
 TestPoint_2Pads_Pitch2.54mm_Drill0.8mm
 Test point with 2 pins, pitch 2.54mm, drill diameter 0.8mm
@@ -83131,3 +82935,122 @@ varistor SIOV
 0
 2
 2
+tigard
+Crystal_SMD_3225-4Pin_3.2x2.5mm_RoundRect
+SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package
+SMD SMT crystal
+0
+4
+4
+tigard
+OSHW-Symbol_4.4x4mm_SilkScreen
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+tigard
+PinHeader_1x08_P2.54mm_Vertical
+Through hole straight pin header, 1x08, 2.54mm pitch, single row
+Through hole pin header THT 1x08 2.54mm single row
+0
+8
+8
+tigard
+PinHeader_1x09_P2.54mm_Vertical
+Through hole straight pin header, 1x09, 2.54mm pitch, single row
+Through hole pin header THT 1x09 2.54mm single row
+0
+9
+9
+tigard
+PinHeader_2x04_P2.54mm_Vertical
+Through hole straight pin header, 2x04, 2.54mm pitch, double rows
+Through hole pin header THT 2x04 2.54mm double row
+0
+8
+8
+tigard
+PinHeader_2x05_P1.27mm_Vertical_SMD
+surface-mounted straight pin header, 2x05, 1.27mm pitch, double rows
+Surface mounted pin header SMD 2x05 1.27mm double row
+0
+10
+10
+tigard
+PinHeader_2x07_P1.27mm_Vertical_SMD
+surface-mounted straight pin header, 2x07, 1.27mm pitch, double rows
+Surface mounted pin header SMD 2x07 1.27mm double row
+0
+14
+14
+tigard
+R_Array_Convex_4x0402_RoundRect
+Chip Resistor Network, ROHM MNR04 (see mnr_g.pdf)
+resistor array
+0
+8
+8
+tigard
+SOT-23-5_RoundRect
+5-pin SOT23 package
+SOT-23-5
+0
+5
+5
+tigard
+SOT-23-6_RoundRect
+6-pin SOT-23 package
+SOT-23-6
+0
+6
+6
+tigard
+SOT-23_RoundRect
+SOT-23, Standard
+SOT-23
+0
+3
+3
+tigard
+SW_ALPS_SSSS224100_DP4T
+
+
+0
+10
+10
+tigard
+SW_CuK_JS202011CQN_DPDT_Straight
+CuK sub miniature slide switch, JS series, DPDT, right angle, http://www.ckswitches.com/media/1422/js.pdf
+switch DPDT
+0
+6
+6
+tigard
+Securing_Hardware_Logo
+
+
+0
+0
+0
+tigard
+Texas_VQFN-RHL-24_ThermalVias
+
+
+0
+45
+25
+tigard
+Tigard_Logo
+
+
+0
+0
+0
+tigard
+USB_C_Receptacle_HRO_TYPE-C-31-M-12
+USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
+usb usb-c 2.0 pd
+0
+28
+17
