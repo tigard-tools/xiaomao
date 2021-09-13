@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=xiaotagulator.net
+LastNetListRead=xiaomao.net
 CopperLayerCount=2
 BoardThickness=0.8
 AllowMicroVias=0
