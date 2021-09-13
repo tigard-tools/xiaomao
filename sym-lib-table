@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name Xiao)(type Legacy)(uri "/home/franklin/src/xiaotagulator/Seeeduino XIAO KICAD/Seeeduino XIAO.lib")(options "")(descr ""))
+  (lib (name Xiao)(type Legacy)(uri "${KIPRJMOD}/Seeeduino XIAO KICAD/Seeeduino XIAO.lib")(options "")(descr ""))
 )
