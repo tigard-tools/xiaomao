@@ -34,3 +34,5 @@ xiaotagulator-prod/
 # Rescues
 *-rescue.dcm
 *-rescue.lib
+
+out/
