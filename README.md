@@ -3,7 +3,7 @@
 # Xiǎomāo
 Xiǎomāo is a simple general-purpose microcontroller board for safely interfacing with a wide range of logic levels. 
 
-Xiǎomāo (幼猫) means 'small cat' and gets its name combining the small [xiao](https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html) module with the catlike tigard-tools wiring harnesses.
+Xiǎomāo (小猫) means 'small cat' and gets its name combining the small [xiao](https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html) module with the catlike tigard-tools wiring harnesses.
 
 # Design Objectives
 Xiǎomāo fits under the tigard-tools umbrella because it repurposes Tigard's wiring harnesses and complement's Tigards features by providing a wide-Vio-range programmable device. It should be ideal for:
