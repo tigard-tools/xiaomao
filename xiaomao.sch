@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Xiaomao"
+Date "2021-10-05"
+Rev "v0.2"
+Comp "Securing Hardware"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -386,7 +386,7 @@ U 1 1 613FE241
 P 5300 1700
 F 0 "SW1" V 5346 1652 50  0000 R CNN
 F 1 "SW_Push" V 5255 1652 50  0000 R CNN
-F 2 "Button_Switch_SMD:SW_SPST_B3U-1000P" H 5300 1900 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3U-1000P-B" H 5300 1900 50  0001 C CNN
 F 3 "~" H 5300 1900 50  0001 C CNN
 F 4 "C498294" H 5300 1700 50  0001 C CNN "LCSC"
 	1    5300 1700
