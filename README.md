@@ -26,7 +26,7 @@ Modern ICs have at least minimal ESD protection. Additional ESD protection would
 
 # Alternatives
 Depending on the usage, there are a wide variety of alternatives. Xiǎomāo was designed with lots of tradeoffs in mind - some of these alternatives are going to be better for certain uses.
-* The [JAGULATOR](http://www.grandideastudio.com/jtagulator/) is far more robust than any other option for seeking out JTAG interfaces - especially when you're dealing with irreplaceable targets that you really don't want to brick.
+* The [JTAGULATOR](http://www.grandideastudio.com/jtagulator/) is far more robust than any other option for seeking out JTAG interfaces - especially when you're dealing with irreplaceable targets that you really don't want to brick.
 * [Glasgow](https://github.com/GlasgowEmbedded/glasgow) has robust, direction-switchable level shifting in additon to massively configurable I/O, but too large, expensive, and power-hungry for implant-style use.
 * The [Teensy](https://www.pjrc.com/teensy/) family far exceeds the I/O and computational performance of the other options. Teensy V3.2 is 5v tolerant and would be the best alternative
 * The Arduino Pro Mini (ATMega328p) is very cheap and operates at a wide voltage range, but requires a UART programmer
