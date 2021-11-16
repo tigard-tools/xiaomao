@@ -32,7 +32,7 @@ Depending on the usage, there are a wide variety of alternatives. Xiǎomāo was 
 * The Arduino Pro Mini (ATMega328p) is very cheap and operates at a wide voltage range, but requires a UART programmer
 * The Arduino Pro Micro (ATMega32U4) is alos inexpensive and capable, but doesn't work on as wide a range as the Mini
 
-We settled on the [XIAO from Seeedsutdio](https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html) because it is small, cheap, 1.8v sensitive, usb-c, easily supported in arduino and circuitpython, and readily available right now (September 2021). There are also other devices with the same footprint (Adafruit QT PY and RP2040 variations) that can be used in its place and likely run the same code.
+We settled on the [XIAO from Seeedstudio](https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html) because it is small, cheap, 1.8v sensitive, usb-c, easily supported in arduino and circuitpython, and readily available right now (September 2021). There are also other devices with the same footprint (Adafruit QT PY and RP2040 variations) that can be used in its place and likely run the same code.
 
 # Assembly
 Xiǎomāo was designed primarily for automated assembly. The first batch had all parts but the XIAO module assembled by a small batch service.
