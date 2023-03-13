@@ -38,6 +38,9 @@ We settled on the [XIAO from Seeedstudio](https://www.seeedstudio.com/Seeeduino-
 Xiǎomāo was designed primarily for automated assembly. The first batch had all parts but the XIAO module assembled by a small batch service.
 The bare XIAO module can be soldered directly to the board using the castellated edges, or .1" through hole sockets can be soldered to the board to use a XIAO with pins.
 
+# Factory Firmware
+Xiǎomāo ships with a [slightly modified JTAGScan](https://github.com/securelyfitz/JTAGscan/releases/tag/Xiaomao-factory-firmware), though it should work with any [more recent version of JTAGScan](https://github.com/szymonh/JTAGscan)
+
 # Programming
 The [Seeeduino XIAO Documentation](https://wiki.seeedstudio.com/Seeeduino-XIAO/) covers getting started with both CircuitPython and the Arduino IDE.
 
