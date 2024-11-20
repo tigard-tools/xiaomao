@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name Xiao)(type Legacy)(uri "${KIPRJMOD}/Seeeduino XIAO KICAD/Seeeduino XIAO.lib")(options "")(descr ""))
+  (version 7)
+  (lib (name "Xiao")(type "Legacy")(uri "${KIPRJMOD}/Seeeduino XIAO KICAD/Seeeduino XIAO.lib")(options "")(descr ""))
+  (lib (name "xiaomao-rescue")(type "KiCad")(uri "${KIPRJMOD}/xiaomao-rescue.kicad_sym")(options "")(descr ""))
 )
