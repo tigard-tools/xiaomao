@@ -3,7 +3,7 @@
 # Xiǎomāo
 Xiǎomāo is a simple general-purpose microcontroller board for safely interfacing with a wide range of logic levels. 
 
-Xiǎomāo (小猫) means 'small cat' and gets its name combining the small [XIAO](https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html) module with the catlike tigard-tools wiring harnesses.
+Xiǎomāo (小猫) means 'small cat' and gets its name combining the small [Seeed Studio XIAO SAMD2](https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html) module with the catlike tigard-tools wiring harnesses.
 
 # Design Objectives
 Xiǎomāo fits under the tigard-tools umbrella because it repurposes Tigard's wiring harnesses and complement's Tigards features by providing a wide-Vio-range programmable device. It was designed to fill gaps in what Tigard was able to do for some of the labs in [Applied Physical Attacks #2: Hardware Pentesting](https://learn.securinghardware.com/courses/applied-physical-attacks-2/). Xiǎomāo should be well suited for:
@@ -32,7 +32,7 @@ Depending on the usage, there are a wide variety of alternatives. Xiǎomāo was 
 * The Arduino Pro Mini (ATMega328p) is very cheap and operates at a wide voltage range, but requires a UART programmer
 * The Arduino Pro Micro (ATMega32U4) is alos inexpensive and capable, but doesn't work on as wide a range as the Mini
 
-We settled on the [XIAO from Seeedstudio](https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html) because it is small, cheap, 1.8v sensitive, usb-c, easily supported in arduino and circuitpython, and readily available right now (September 2021). There are also other devices with the same footprint (Adafruit QT PY and RP2040 variations) that can be used in its place and likely run the same code.
+We settled on the [Seeed Studio XIAO SAMD21](https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html) because it is small, cheap, 1.8v sensitive, usb-c, easily supported in arduino and circuitpython, and readily available right now (September 2021). There are also other devices with the same footprint (Adafruit QT PY and RP2040 variations) that can be used in its place and likely run the same code.
 
 # Assembly
 Xiǎomāo was designed primarily for automated assembly. The first batch had all parts but the XIAO module assembled by a small batch service.
