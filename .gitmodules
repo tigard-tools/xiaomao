@@ -1,0 +1,6 @@
+[submodule "libs/rhais_usb.pretty"]
+	path = libs/rhais_usb.pretty
+	url = https://github.com/dragonmux/rhais_usb.pretty
+[submodule "libs/rhais_rcl.pretty"]
+	path = libs/rhais_rcl.pretty
+	url = https://github.com/dragonmux/rhais_rcl.pretty
