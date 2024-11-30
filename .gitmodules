@@ -4,3 +4,15 @@
 [submodule "libs/rhais_rcl.pretty"]
 	path = libs/rhais_rcl.pretty
 	url = https://github.com/dragonmux/rhais_rcl.pretty
+[submodule "libs/rhais_package-smd.pretty"]
+	path = libs/rhais_package-smd.pretty
+	url = https://github.com/dragonmux/rhais_package-smd.pretty
+[submodule "libs/rhais_package-qfn.pretty"]
+	path = libs/rhais_package-qfn.pretty
+	url = https://github.com/dragonmux/rhais_package-qfn.pretty
+[submodule "libs/rhais_connector-pinheader.pretty"]
+	path = libs/rhais_connector-pinheader.pretty
+	url = https://github.com/dragonmux/rhais_connector-pinheader.pretty
+[submodule "libs/rhais_osc.pretty"]
+	path = libs/rhais_osc.pretty
+	url = https://github.com/dragonmux/rhais_osc.pretty
