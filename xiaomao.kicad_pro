@@ -524,7 +524,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "xiaomao.net",
-      "plot": "",
+      "plot": "gerbers",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

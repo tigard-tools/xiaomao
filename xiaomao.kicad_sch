@@ -5,9 +5,9 @@
 	(uuid "0fe9e493-c481-454c-b8b0-96af10f6ed2d")
 	(paper "A4")
 	(title_block
-		(title "OpenTaxus Badge")
-		(date "2024-06-12")
-		(rev "1.0")
+		(title "Xiaomao JTAG and UART discovery tool")
+		(date "2024-12-02")
+		(rev "2.0a")
 		(comment 1 "Joe FitzPatrick")
 		(comment 2 "joefitz@securinghw.com")
 	)
