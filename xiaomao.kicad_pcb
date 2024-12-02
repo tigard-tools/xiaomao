@@ -24883,18 +24883,6 @@
 		(layer "Edge.Cuts")
 		(uuid "ee6eac1a-ec1e-487c-b76a-b820cfedb73b")
 	)
-	(gr_text "CircuitPython Hacking:\n   sw4 is off \n   usb connect, edit \n   code.py saved? runs."
-		(at 34.544 31.242 270)
-		(layer "F.SilkS")
-		(uuid "1b20c7d4-79c5-4ea3-97cd-5c880ceb7933")
-		(effects
-			(font
-				(size 1.524 1.397)
-				(thickness 0.2032)
-			)
-			(justify left)
-		)
-	)
 	(gr_text "securinghw.com"
 		(at 131.8 64 0)
 		(layer "F.SilkS")
