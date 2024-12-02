@@ -10,6 +10,7 @@
 		(rev "2.0a")
 		(comment 1 "Rachel Mant <git@dragonmux.network>")
 		(comment 2 "Joe FitzPatrick <joefitz@securinghw.com>")
+		(comment 4 "License: CERN-OHL-S-2.0")
 	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"

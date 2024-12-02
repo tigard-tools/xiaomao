@@ -13,6 +13,7 @@
 		(rev "2.0a")
 		(comment 1 "Rachel Mant <git@dragonmux.network>")
 		(comment 2 "Joe FitzPatrick <joefitz@securinghw.com>")
+		(comment 4 "License: CERN-OHL-S-2.0")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -10587,7 +10588,7 @@
 		(uuid "ac0c3c48-c05c-4b78-b2f7-4a276cff6ddd")
 		(at 131.8 60.5)
 		(property "Reference" "REF**"
-			(at 0.21 5.33 360)
+			(at 0.21 5.33 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "12b3ea22-ad90-4852-9762-b7dbdc8b6ad2")
@@ -10599,7 +10600,7 @@
 			)
 		)
 		(property "Value" "sh_logo"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "117ac896-2227-4fe0-9485-84d08d27a828")
@@ -10611,7 +10612,7 @@
 			)
 		)
 		(property "Footprint" "xiaomao:Securing_Hardware_Logo"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9c2c57c0-d197-44e1-937c-8430644a2260")
@@ -10623,7 +10624,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a9eeab76-0ac1-405e-ae83-96ce316d79fe")
@@ -10635,7 +10636,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d7f934af-fbf0-456a-af30-c89972ef5747")
@@ -18383,7 +18384,7 @@
 			)
 		)
 		(property "Value" "UART"
-			(at -2.125 0 270)
+			(at -2.125 0 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "1a2f8ad0-9bfb-4267-a3ba-7e854bd4f5d4")
@@ -24882,6 +24883,18 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "ee6eac1a-ec1e-487c-b76a-b820cfedb73b")
+	)
+	(gr_text "CERN\nOHL-S-2.0"
+		(at 140 72.2 -0)
+		(layer "B.SilkS")
+		(uuid "8ed6ea35-97cc-4aa8-911c-86ace9e3f3c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
 	)
 	(gr_text "securinghw.com"
 		(at 131.8 64 0)
