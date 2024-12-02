@@ -252,9 +252,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "power_pin_not_driven|2743200|1270000|369d3a6b-7dc5-4646-a0db-ed34a86e8d0b|00000000-0000-0000-0000-000000000000|/0fe9e493-c481-454c-b8b0-96af10f6ed2d|/0fe9e493-c481-454c-b8b0-96af10f6ed2d|"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -517,7 +515,7 @@
     "netclass_patterns": [
       {
         "netclass": "USB-FS",
-        "pattern": "/(MCU_|)USB_D[+-]"
+        "pattern": "/(MCU_|CON_|)USB_D[+-]"
       }
     ]
   },
@@ -616,25 +614,25 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "P/N",
           "name": "P/N",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Price",
           "name": "Price",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "mfg",
           "name": "mfg",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
