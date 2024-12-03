@@ -1,5 +1,5 @@
-# For PCBs designed using KiCad: http://www.kicad-pcb.org/
-# Format documentation: http://kicad-pcb.org/help/file-formats/
+# For PCBs designed using KiCad: http://www.kicad.org/
+# Format documentation: http://kicad.org/help/file-formats/
 
 # Temporary files
 *.000
@@ -14,6 +14,11 @@ _autosave-*
 *-save.kicad_pcb
 fp-info-cache
 *csv#
+
+*.kicad_*.lck
+
+# Personal preferences file
+*.kicad_prl
 
 # Netlist files (exported from Eeschema)
 *.net
