@@ -67,7 +67,7 @@
 		)
 	)
 	(property "LCSC" "C5349953"
-		(at 0 0 180)
+		(at 0 4.5 180)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "8000126d-9126-43fa-9c83-31fc9cd4a61a")
@@ -79,7 +79,7 @@
 		)
 	)
 	(property "mfg" "XINGLIGHT"
-		(at 0 0 180)
+		(at 0 3 180)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "76558d76-2b68-4ec5-a5fc-383fa5e28ff5")
@@ -91,7 +91,7 @@
 		)
 	)
 	(property "JLCPCB Rotation Offset" "90"
-		(at 0 0 180)
+		(at 0 7.5 180)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "07f512ec-0384-4bf9-9293-bfdb154febad")
@@ -103,7 +103,7 @@
 		)
 	)
 	(property "P/N" "XL-1010RGBC-WS2812B"
-		(at 0 0 180)
+		(at 0 6 180)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "3e3a816f-e76d-4ae5-8b01-73b7a6023d92")
@@ -117,24 +117,76 @@
 	(solder_mask_margin 0.05)
 	(attr smd)
 	(fp_line
-		(start -0.63 -0.55)
-		(end 0.63 -0.55)
+		(start -0.55 0.05)
+		(end -0.55 -0.05)
 		(stroke
-			(width 0.12)
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a78daa59-6e18-4de1-863e-482fd12b2213")
+	)
+	(fp_line
+		(start -0.05 -0.8)
+		(end -0.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "97b4bb21-e02e-4004-ad53-b751767891f7")
+	)
+	(fp_line
+		(start -0.05 -0.55)
+		(end -0.05 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5b5cd492-faf1-4cca-bd73-778b8224ae78")
+	)
+	(fp_line
+		(start -0.05 -0.55)
+		(end 0.05 -0.55)
+		(stroke
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "8c23f247-5ce9-4ebc-a462-93a793bb2b7a")
 	)
 	(fp_line
-		(start -0.63 0.55)
-		(end 0.63 0.55)
+		(start -0.05 0.55)
+		(end 0.05 0.55)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "8cac232d-9bd7-424c-961f-1fb271fc1484")
+		(uuid "c4807564-f3be-4b8e-bc78-4e44732b174b")
+	)
+	(fp_line
+		(start 0.55 0.05)
+		(end 0.55 -0.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "36c3e6be-3c69-498c-83f4-cd837c00d0cf")
+	)
+	(fp_poly
+		(pts
+			(xy -0.05 0.25) (xy 0.05 0.15) (xy 0.05 0.35)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "0ed04e2e-bf74-4211-809f-989a2bfc2c03")
 	)
 	(fp_line
 		(start -0.9 -0.9)
