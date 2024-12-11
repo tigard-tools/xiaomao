@@ -1,4 +1,11 @@
 (fp_lib_table
-  (lib (name Xiao)(type KiCad)(uri "${KIPRJMOD}/Seeeduino XIAO KICAD")(options "")(descr ""))
-  (lib (name xiaomao)(type KiCad)(uri ${KIPRJMOD})(options "")(descr ""))
+  (version 7)
+  (lib (name "Xiao")(type "KiCad")(uri "${KIPRJMOD}/Seeeduino XIAO KICAD")(options "")(descr ""))
+  (lib (name "xiaomao")(type "KiCad")(uri "${KIPRJMOD}")(options "")(descr ""))
+  (lib (name "rhais_usb")(type "KiCad")(uri "${KIPRJMOD}/libs/rhais_usb.pretty")(options "")(descr ""))
+  (lib (name "rhais_rcl")(type "KiCad")(uri "${KIPRJMOD}/libs/rhais_rcl.pretty")(options "")(descr ""))
+  (lib (name "rhais_connector-pinheader")(type "KiCad")(uri "${KIPRJMOD}/libs/rhais_connector-pinheader.pretty")(options "")(descr ""))
+  (lib (name "rhais_osc")(type "KiCad")(uri "${KIPRJMOD}/libs/rhais_osc.pretty")(options "")(descr ""))
+  (lib (name "rhais_package-qfn")(type "KiCad")(uri "${KIPRJMOD}/libs/rhais_package-qfn.pretty")(options "")(descr ""))
+  (lib (name "rhais_package-smd")(type "KiCad")(uri "${KIPRJMOD}/libs/rhais_package-smd.pretty")(options "")(descr ""))
 )
