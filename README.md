@@ -1,11 +1,15 @@
+# Xiǎomāo
 <img alt="Xiǎomāo PCB Render" width="320" align="right" src="https://raw.githubusercontent.com/tigard-tools/xiaomao/master/xiaomao-render.png">
 
-# Xiǎomāo
 Xiǎomāo is a simple general-purpose microcontroller board for safely interfacing with a wide range of logic levels. 
 
-Xiǎomāo (小猫) means 'small cat' and gets its name combining the small [Seeed Studio XIAO SAMD2](https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html) module with the catlike tigard-tools wiring harnesses.
 
-# Design Objectives
+
+Xiǎomāo (小猫) means 'small cat' and gets its name from the original revision which used the the small [Seeed Studio XIAO SAMD2](https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html) module with the catlike tigard-tools wiring harnesses. The current version, Xiǎomāo v2 is a redesign based on an RP2040 but the Xiǎomāo name stuck.
+
+[If you have an old Xiaomao v0.1 or 0.2, check the older version of this readme](https://github.com/tigard-tools/xiaomao/tree/xiaomao_v1)
+
+## Design Objectives
 Xiǎomāo fits under the tigard-tools umbrella because it repurposes Tigard's wiring harnesses and complement's Tigards features by providing a wide-Vio-range programmable device. It was designed to fill gaps in what Tigard was able to do for some of the labs in [Applied Physical Attacks #2: Hardware Pentesting](https://learn.securinghardware.com/courses/applied-physical-attacks-2/). Xiǎomāo should be well suited for:
 1. Bitbanging protocols, even those with bidirectional pins
 2. Standalone operation, such as dropping a protocol payload on a target
@@ -16,11 +20,11 @@ While unidirectional level shifting works well on Tigard, bidirection level shif
 Xiǎomāo is intended to be a very cheap module with 'just enough' protection to not damage most targets:
 
 * **Sensing low-voltage high signals:**
-The ATSAMD on Xiǎomāo is nominally running at 3.3v, and per spec Vih = Vcc\*.55 = 1.81v. In practice, this is good enough for us to discern high and low voltages from 1.8v output pins.
+The RP2040 on Xiǎomāo is nominally running at 3.3V, and per spec Vih = 2V, but in practice, this is good enough for us to discern high and low voltages from 1.8V output pins.
 * **Tolerating high and low voltage on I/O pins:**
-Xiǎomāo adds 200 ohm resistors in series on each gpio pin, and the ATSAMD can tolerate Vcc+0.6v on the I/O pins. If 5V are applied to a pin, the microcontroller would only need to sink about 5 mA to drop the voltage into a safe range. While a larger resistor would be ideal, it would limit the low-voltage sensitivity of the pins.
+Xiǎomāo adds 200 ohm resistors in series on each gpio pin, and the ATSAMD can tolerate IOVDD+0.5v on the I/O pins. If 5V are applied to a pin, the microcontroller would only need to sink about 5 mA to drop the voltage into a safe range. While a larger resistor would be ideal, it would limit the low-voltage sensitivity of the pins.
 * **Operating in wide voltage ranges:**
-Vcc pins on the headers connect to the 3.3v regulator. Voltages over 3.3v will be regulated to 3.3v, and voltages lower than 3.3v will only drop about 50mv through the regulator. This means Xiǎomāo should work at as low as 1.67v, assuming Vio and Vcc are similar
+Vcc pins on the headers connect to the 3.3v regulator. Voltages over 3.3v will be regulated to 3.3v, and voltages lower than 3.3v will only drop about 50mv through the regulator. This means Xiǎomāo should work at as low as 1.84v, although USB may not function below 3.3v
 * **ESD/TVS:**
 Modern ICs have at least minimal ESD protection. Additional ESD protection would increase the size and cost of the device, which is intended to be low cost and consumable, and would be of limited benefit to the target device. For this reason, ESD/TVS protection is skipped on Xiǎomāo.
 
@@ -30,26 +34,27 @@ Depending on the usage, there are a wide variety of alternatives. Xiǎomāo was 
 * [Glasgow](https://github.com/GlasgowEmbedded/glasgow) has robust, direction-switchable level shifting in additon to massively configurable I/O, but too large, expensive, and power-hungry for implant-style use.
 * The [Teensy](https://www.pjrc.com/teensy/) family far exceeds the I/O and computational performance of the other options. Teensy V3.2 is 5v tolerant and would be the best alternative
 * The Arduino Pro Mini (ATMega328p) is very cheap and operates at a wide voltage range, but requires a UART programmer
-* The Arduino Pro Micro (ATMega32U4) is alos inexpensive and capable, but doesn't work on as wide a range as the Mini
+* The Arduino Pro Micro (ATMega32U4) is also inexpensive and capable, but doesn't work on as wide a range as the Mini
 
-We settled on the [Seeed Studio XIAO SAMD21](https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html) because it is small, cheap, 1.8v sensitive, usb-c, easily supported in arduino and circuitpython, and readily available right now (September 2021). There are also other devices with the same footprint (Adafruit QT PY and RP2040 variations) that can be used in its place and likely run the same code.
+We settled on the [Seeed Studio XIAO SAMD21](https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html) for v1 because it was small, cheap, 1.8v sensitive, usb-c, easily supported in arduino and circuitpython, and readily available in September 2021. V2 uses the [RP2040](https://www.raspberrypi.com/products/rp2040/) for greater capabilities, similar I/O, lower cost, and greater availability.
 
 # Assembly
-Xiǎomāo was designed primarily for automated assembly. The first batch had all parts but the XIAO module assembled by a small batch service.
-The bare XIAO module can be soldered directly to the board using the castellated edges, or .1" through hole sockets can be soldered to the board to use a XIAO with pins.
+Xiǎomāo was designed for automated assembly. 
 
 # Factory Firmware
 Xiǎomāo ships with a [slightly modified JTAGScan](https://github.com/securelyfitz/JTAGscan/releases/tag/Xiaomao-factory-firmware), though it should work with any [more recent version of JTAGScan](https://github.com/szymonh/JTAGscan)
 
 # Programming
-The [Seeeduino XIAO Documentation](https://wiki.seeedstudio.com/Seeeduino-XIAO/) covers getting started with both CircuitPython and the Arduino IDE.
+Until Xiaomao-specific configurations are complete, choose a Raspberry Pi Pico when coding for Xiaoamo:
+* [Arduino-Pico](https://github.com/earlephilhower/arduino-pico) 
+* [CircuitPython](https://circuitpython.org/)
 
 # Debugging
-The ATSAMD used on XIAO supports debugging over the SWD pins. Xiǎomāo makes these pins accessible on the SWD header. To set up Tigard, OpenOCD, and GDB to work with Xiǎomāo:
+The RP2040 used on XIAO supports debugging over the SWD pins. Xiǎomāo makes these pins accessible on the SWD header. To set up Tigard, OpenOCD, and GDB to work with Xiǎomāo:
 1. Connect the first 4 pins of the JTAG header to the SWD header on Xiǎomāo. That's VTGT, GND, TCK and TDI
 2. Set Tigard's VTGT switch to 3.3v and mode switch to 'SWD/I2C'
 3. Connect Tigard to your computer via USB
-4. Run OpenOCD: `openocd -f tigard-swd.cfg -f target/at91samdXX.cfg`
+4. Run OpenOCD: `openocd -f tigard-swd.cfg -f target/rp2040.cfg`
 5. Start GDB: `gdb-multiarch`
 6. Connect to OpenOCD: `set arch arm; target remote localhost:3333`
 
