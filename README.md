@@ -68,39 +68,47 @@ Arduino Examples -> 04.Communication -> SerialPassthrough is a good starting poi
 ### 'JTAG' header
 8-pin header for use with tigard's jtag harness, and usable as a JTAG implant with the wires as labeled
 
-| Header Pin | XIAO Pin | Wire Label   | Color  |
-|------------|----------|--------------|--------|
-| 1          |          | VIN          | Red    |
-| 2          |          | GND          | Black  |
-| 3          | 0        | TCK          | White  |
-| 4          | 1        | TDI/MOSI/SDA | Grey   |
-| 5          | 2        | TDO/MISO/--  | Purple |
-| 6          | 3        | TMS/SS/--    | Blue   |
-| 7          | 4 (SDA)  | TRST/--/--   | Green  |
-| 8          | 5 (SCL)  | SRST/--/--   | Yellow |
+| Header Pin | Xiaomao label | rp2040 pin | Wire Label   | Color  |
+|------------|---------------|------------|---------------|--------|
+| 1          | PWR           |            | VIN          | Red    |
+| 2          | GND           |            | GND          | Black  |
+| 3          | D0 (TX)       | GPIO0      | TCK          | White  |
+| 4          | D1 (RX)       | GPIO1      | TDI/COPI/SDA | Grey   |
+| 5          | D2            | GPIO2      | TDO/CIPO/--  | Purple |
+| 6          | D3            | GPIO3      | TMS/SS/--    | Blue   |
+| 7          | D4 (TX)       | GPIO4      | TRST/--/--   | Green  |
+| 8          | D5 (RX)       | GPIO5      | SRST/--/--   | Yellow |
 
 ### 'UART' header
 9-pin header for use with tigard's uart harness. Ships with only first 4 wires installed, and usable as a UART implant with the wires as labeled
 
-| Header Pin | XIAO Pin  | Wire Label   | Color  |
-|------------|-----------|--------------|--------|
-| 1          |           | VIN          | Red    |
-| 2          |           | GND          | Black  |
-| 3          | 6  (TX)   | TCK          | Green  |
-| 4          | 7  (RX)   | TDI/MOSI/SDA | White  |
-| 5          | 8  (SCK)  | TDO/MISO/--  | Grey   |
-| 6          | 9  (CIPO) | TMS/SS/--    | Purple |
-| 7          | 10 (COPI) | TRST/--/--   | Blue   |
-| 8          |     NC    | SRST/--/--   | Yellow |
-| 9          |     NC    | SRST/--/--   | Orange |
+| Header Pin | Xiaomao Label | rp2040 pin | Wire Label   | Color  |
+|------------|---------------|------------|--------------|--------|
+| 1          | PWR           |            | VIN          | Red    |
+| 2          | GND           |            | GND          | Black  |
+| 3          | D6 (TX)       | GPIO16     | TX           | Green  |
+| 4          | D7 (RX)       | GPIO17     | RX           | White  |
+| 5          | D8            | GPIO18     |              | Grey   |
+| 6          | D9            | GPIO19     |              | Purple |
+| 7          | D10 (TX)      | GPIO20     |              | Blue   |
+| 8          | D11 (RX)      | GPIO21     |              | Yellow |
+| 9          | D12           | GPIO22     |              | Orange |
+
+### RGB LED control
+No header, but for control of RGBLEDS:
+
+| rp2040 pin | Purpose        |
+|------------|----------------|
+| GPIO6      | Neopixel Power |
+| GPIO7      | Neopixel       |
 
 ### 'SWD' connector
 5-pin header is unpopulated and gives access to the programming pins on the bottom of XIAO.
 
-| Header Pin | XIAO Pin  |
-|------------|-----------|
-| 1          |           |
-| 2          |           |
-| 3          | SWCLK     |
-| 4          | SWDIO     |
-| 5          | /RESET    |
+| Header Pin | rp2040 Pin  |
+|------------|-------------|
+| 1          |             |
+| 2          |             |
+| 3          | SWCLK       |
+| 4          | SWDIO       |
+| 5          | /RESET      |
