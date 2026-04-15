@@ -1,8 +1,7 @@
 # Xiǎomāo
 <img alt="Xiǎomāo PCB Render" width="320" align="right" src="https://raw.githubusercontent.com/tigard-tools/xiaomao/master/xiaomao-render.png">
 
-Xiǎomāo is a simple general-purpose microcontroller board for safely interfacing with a wide range of logic levels. 
-
+Xiǎomāo is a development board geared toward hardware hacking and hardware implant design that can safely interfacing with a wide range of logic levels
 
 
 Xiǎomāo (小猫) means 'small cat' and gets its name from the original revision which used the the small [Seeed Studio XIAO SAMD2](https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html) module with the catlike tigard-tools wiring harnesses. The current version, Xiǎomāo v2 is a redesign based on an RP2040 but the Xiǎomāo name stuck.
