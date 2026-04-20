@@ -5067,6 +5067,12 @@
 		(uuid "49482c2e-a783-4ccc-bb99-f38fa7053d35")
 	)
 	(junction
+		(at 46.99 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "495d822c-0878-4ec3-98f9-ff25e8c2e177")
+	)
+	(junction
 		(at 242.57 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5167,6 +5173,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bba652ba-8334-4b5f-956e-fe33b370279b")
+	)
+	(junction
+		(at 58.42 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfc759f7-275d-4954-9a5b-e34feb4530a8")
 	)
 	(junction
 		(at 179.07 29.21)
@@ -5642,6 +5654,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 19.05) (xy 60.96 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "200189a3-8022-49a4-9b85-461176833370")
+	)
+	(wire
+		(pts
 			(xy 228.6 81.28) (xy 243.84 81.28)
 		)
 		(stroke
@@ -5659,6 +5681,16 @@
 			(type default)
 		)
 		(uuid "21e6c3cb-377b-4a3f-bc41-dae5bdaed9a1")
+	)
+	(wire
+		(pts
+			(xy 266.7 55.88) (xy 266.7 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24217340-4b74-4e67-bf03-074c23873484")
 	)
 	(polyline
 		(pts
@@ -5782,6 +5814,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 19.05) (xy 57.15 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b003d3-fb63-49e6-bbaf-745927d9b1d7")
+	)
+	(wire
+		(pts
 			(xy 179.07 20.32) (xy 190.5 20.32)
 		)
 		(stroke
@@ -5799,6 +5841,16 @@
 			(type default)
 		)
 		(uuid "37d75c2f-8c59-4f35-8279-87f90703f140")
+	)
+	(wire
+		(pts
+			(xy 63.5 29.21) (xy 90.17 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39dc1d53-4d02-46ef-b069-bdf15d3acb9a")
 	)
 	(wire
 		(pts
@@ -6069,16 +6121,6 @@
 			(type default)
 		)
 		(uuid "58f6288c-a36e-4679-981c-30b4055be23c")
-	)
-	(wire
-		(pts
-			(xy 63.5 29.21) (xy 90.17 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "592c6784-632c-43a1-94bb-e5d9735b6a80")
 	)
 	(wire
 		(pts
@@ -6872,6 +6914,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 29.21) (xy 46.99 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd84afa2-2f9e-468f-a3a3-b1f4e8e45bb2")
+	)
+	(wire
+		(pts
 			(xy 99.06 175.26) (xy 111.76 175.26)
 		)
 		(stroke
@@ -6939,6 +6991,16 @@
 			(type dash)
 		)
 		(uuid "ca0f506c-b417-46bf-a95e-5b171afa3ebc")
+	)
+	(wire
+		(pts
+			(xy 46.99 19.05) (xy 53.34 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca93905b-b06c-42dc-a1c3-01f29888021c")
 	)
 	(wire
 		(pts
@@ -7530,6 +7592,16 @@
 		)
 		(uuid "1e1a5462-6c21-43b7-803f-f16b116d2f5a")
 	)
+	(label "GPIO29_ADC3{slash}USB"
+		(at 60.96 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fcb71f8-d362-40ff-a4e8-81279b5aa355")
+	)
 	(label "GPIO24"
 		(at 243.84 127 180)
 		(effects
@@ -7580,7 +7652,7 @@
 		)
 		(uuid "32aedb30-0b79-4496-a1e0-c28a07ea4c7e")
 	)
-	(label "GPIO29_ADC3"
+	(label "GPIO29_ADC3{slash}USB"
 		(at 243.84 142.24 180)
 		(effects
 			(font
@@ -7610,7 +7682,17 @@
 		)
 		(uuid "396b3cb6-251e-4267-908b-3a4b542a1e22")
 	)
-	(label "GPIO28_ADC2"
+	(label "GPIO28_ADC2{slash}BTN"
+		(at 266.7 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "39850edd-f698-4df9-bbb8-d8078d539bb5")
+	)
+	(label "GPIO28_ADC2{slash}BTN"
 		(at 243.84 139.7 180)
 		(effects
 			(font
@@ -8858,7 +8940,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rhais_connector-pinheader:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "rhais_connector-pinheader:PinHeader_1x04_P1.27mm_Vertical"
 			(at 127 68.58 0)
 			(effects
 				(font
@@ -11567,7 +11649,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rhais_rcl:L0402"
+		(property "Footprint" "rhais_rcl:L0603"
 			(at 55.88 27.432 90)
 			(effects
 				(font
@@ -12317,6 +12399,71 @@
 			(project "tigard"
 				(path "/1bbd9c71-d6e9-4f3b-bc52-4931b5ad2556"
 					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 266.7 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9954e06f-4d32-4ce0-a2c2-bc88088e837f")
+		(property "Reference" "#PWR024"
+			(at 266.7 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.827 75.5142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40465f7d-5d4c-40e3-9ce7-9b4a7a0be6f9")
+		)
+		(instances
+			(project "xiaomao"
+				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -15411,6 +15558,119 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 55.88 19.05 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e11e8a07-3a11-4c62-b53d-567cc5398600")
+		(property "Reference" "R23"
+			(at 55.88 13.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k1"
+			(at 55.88 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rhais_rcl:R0402"
+			(at 55.88 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "0402WGF5101TCE"
+			(at 55.88 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 55.88 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" ""
+			(at 55.88 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.00"
+			(at 55.88 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfg" "UNI-ROYAL"
+			(at 55.88 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcf732a5-4b66-46b3-97cf-0779db7f8243")
+		)
+		(pin "2"
+			(uuid "6656efe3-cb68-445f-8423-ed6ded53fcb5")
+		)
+		(instances
+			(project "xiaomao"
+				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 90.17 33.02 0)
 		(unit 1)
@@ -15905,6 +16165,110 @@
 			(project "RP2040_minimal"
 				(path "/a9862e0d-3ce7-4836-a3aa-a28e96dbe90c"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 266.7 66.04 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ededb09c-d94c-4abf-8e3d-2742e24b5960")
+		(property "Reference" "SW1"
+			(at 262.89 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BUTTON"
+			(at 259.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rhais_button-smd:B3U-1000P-B"
+			(at 261.62 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411211210_DEALON-TD-1183SN-1-7H-160_C2905194.pdf"
+			(at 261.62 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2905194"
+			(at 266.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "TD-1183SN-1.7H-160"
+			(at 266.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.41 "
+			(at 266.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfg" "Dealon"
+			(at 266.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "144d0912-212f-4a5d-acee-eb0d23143323")
+		)
+		(pin "2"
+			(uuid "62bc3d05-aa5f-4ce0-b2a8-4c1064f107a8")
+		)
+		(instances
+			(project "xiaomao"
+				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
+					(reference "SW1")
 					(unit 1)
 				)
 			)

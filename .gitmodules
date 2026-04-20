@@ -16,3 +16,6 @@
 [submodule "libs/rhais_osc.pretty"]
 	path = libs/rhais_osc.pretty
 	url = https://github.com/dragonmux/rhais_osc.pretty
+[submodule "libs/rhais_button-smd.pretty"]
+	path = libs/rhais_button-smd.pretty
+	url = git@github.com:dragonmux/rhais_button-smd.pretty.git
