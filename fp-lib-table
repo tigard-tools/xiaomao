@@ -9,4 +9,5 @@
   (lib (name "rhais_package-qfn")(type "KiCad")(uri "${KIPRJMOD}/libs/rhais_package-qfn.pretty")(options "")(descr ""))
   (lib (name "rhais_package-smd")(type "KiCad")(uri "${KIPRJMOD}/libs/rhais_package-smd.pretty")(options "")(descr ""))
   (lib (name "rhais_button-smd")(type "KiCad")(uri "${KIPRJMOD}/libs/rhais_button-smd.pretty")(options "")(descr ""))
+  (lib (name "tsm")(type "KiCad")(uri "${KIPRJMOD}/libs/tsm")(options "")(descr ""))
 )
