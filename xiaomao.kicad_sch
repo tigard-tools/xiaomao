@@ -5827,6 +5827,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 45.72) (xy 275.59 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dfe5af6-587e-4ef9-bb41-d432eebc3857")
+	)
+	(wire
+		(pts
 			(xy 252.73 20.32) (xy 262.89 20.32)
 		)
 		(stroke
@@ -6884,16 +6894,6 @@
 			(type default)
 		)
 		(uuid "9b109664-9a74-49f9-9f57-06931617ce6f")
-	)
-	(wire
-		(pts
-			(xy 275.59 50.8) (xy 275.59 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9baa55f2-f93f-4be7-8b2f-25577249b552")
 	)
 	(wire
 		(pts
@@ -8346,7 +8346,7 @@
 		(uuid "ad4eb4f7-628f-4338-9183-d44324be72bd")
 	)
 	(label "GPIO27_ADC1_LED"
-		(at 275.59 50.8 180)
+		(at 275.59 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8861,6 +8861,110 @@
 			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 275.59 60.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0802a7ed-1869-46ff-895a-b773549aba7f")
+		(property "Reference" "R24"
+			(at 280.416 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200"
+			(at 280.416 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rhais_rcl:R0402"
+			(at 275.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 275.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 275.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25087"
+			(at 275.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "0402WGF2000TCE"
+			(at 275.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.00"
+			(at 275.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfg" "UNI-ROYAL"
+			(at 275.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2670802b-21a0-4272-88a2-6084642c52e4")
+		)
+		(pin "2"
+			(uuid "7cbfccf6-afe3-4973-9b4c-39042436f59c")
+		)
+		(instances
+			(project "xiaomao"
+				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
+					(reference "R24")
 					(unit 1)
 				)
 			)

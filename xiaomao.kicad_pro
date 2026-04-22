@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|151155000|66105000|2d655d4a-4c23-4732-8594-29ff03950524|79774993-bdef-4e46-9998-af80eb93cec7",
+          "plenty of room, need to trim header footprint."
+        ]
+      ],
       "meta": {
         "version": 2
       },
