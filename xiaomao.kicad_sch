@@ -15199,7 +15199,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5446"
+		(property "LCSC" "C5199441"
 			(at 102.87 29.21 0)
 			(effects
 				(font
@@ -15208,7 +15208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.078"
+		(property "Price" "$0.022"
 			(at 102.87 29.21 0)
 			(effects
 				(font
@@ -15226,7 +15226,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "XC6206P332MR-G "
+		(property "P/N" "HE6206-33NR"
 			(at 102.87 29.21 0)
 			(effects
 				(font
