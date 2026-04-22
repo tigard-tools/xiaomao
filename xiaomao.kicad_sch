@@ -7865,7 +7865,7 @@
 		)
 		(uuid "37897e4e-c3cb-4b1e-aa15-2142499957fe")
 	)
-	(label "D6"
+	(label "TX"
 		(at 69.85 168.91 180)
 		(effects
 			(font
@@ -8025,7 +8025,7 @@
 		)
 		(uuid "57d1e578-733a-4aad-b45b-ee46386b42aa")
 	)
-	(label "D8"
+	(label "CTS"
 		(at 69.85 173.99 180)
 		(effects
 			(font
@@ -8175,7 +8175,7 @@
 		)
 		(uuid "84ee6cbc-84c9-4907-a15e-0e2fc7653887")
 	)
-	(label "D7"
+	(label "RX"
 		(at 69.85 171.45 180)
 		(effects
 			(font
@@ -8455,7 +8455,7 @@
 		)
 		(uuid "cfc77103-41a7-4f93-af29-f00643b74e2b")
 	)
-	(label "D11"
+	(label "RX1"
 		(at 69.85 181.61 180)
 		(effects
 			(font
@@ -8565,7 +8565,7 @@
 		)
 		(uuid "e940b5f2-e390-4089-9360-e40f0127abdc")
 	)
-	(label "D9"
+	(label "RTS"
 		(at 69.85 176.53 180)
 		(effects
 			(font
@@ -8645,7 +8645,7 @@
 		)
 		(uuid "f839416b-aedd-430a-985a-f03cae8c682b")
 	)
-	(label "D12"
+	(label "CTS1"
 		(at 69.85 184.15 180)
 		(effects
 			(font
@@ -8655,7 +8655,7 @@
 		)
 		(uuid "fca0a200-c1e4-4b97-b64e-ade350b30572")
 	)
-	(label "D10"
+	(label "TX1"
 		(at 69.85 179.07 180)
 		(effects
 			(font

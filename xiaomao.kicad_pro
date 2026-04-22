@@ -545,6 +545,10 @@
       {
         "netclass": "USB-FS",
         "pattern": "/(MCU_|CON_|)USB_D[+-]"
+      },
+      {
+        "netclass": "USB-FS",
+        "pattern": "TX"
       }
     ]
   },
