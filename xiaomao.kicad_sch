@@ -9227,7 +9227,7 @@
 		(at 127 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "12997fae-7454-4550-bc5c-7a13e995b06f")
@@ -9495,7 +9495,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "-90"
+		(property "mfg" "Winbond"
 			(at 114.3 124.46 0)
 			(effects
 				(font
@@ -9504,7 +9504,7 @@
 				(hide yes)
 			)
 		)
-		(property "mfg" "Winbond"
+		(property "FT Rotation Offset" "-90"
 			(at 114.3 124.46 0)
 			(effects
 				(font
@@ -10400,7 +10400,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Position Offset" "0,1.27"
+		(property "mfg" "DEALON"
 			(at 31.75 46.99 0)
 			(effects
 				(font
@@ -10409,7 +10409,7 @@
 				(hide yes)
 			)
 		)
-		(property "mfg" "DEALON"
+		(property "FT Position Offset" "0,1.27"
 			(at 31.75 46.99 0)
 			(effects
 				(font
@@ -11213,15 +11213,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "90"
-			(at 266.7 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mfg" "XINGLIGHT"
 			(at 266.7 142.24 0)
 			(effects
@@ -11232,6 +11223,15 @@
 			)
 		)
 		(property "Price" "$0.04"
+			(at 266.7 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 266.7 142.24 90)
 			(effects
 				(font
@@ -13872,7 +13872,7 @@
 		(at 101.6 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "b55bdfc9-b927-4716-8b8c-c841769f2853")
@@ -14153,6 +14153,15 @@
 			)
 		)
 		(property "mfg" "Raspberry Pi"
+			(at 203.2 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
 			(at 203.2 104.14 0)
 			(effects
 				(font
@@ -15202,15 +15211,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "90"
-			(at 266.7 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mfg" "XINGLIGHT"
 			(at 266.7 127 0)
 			(effects
@@ -15221,6 +15221,15 @@
 			)
 		)
 		(property "Price" "$0.04"
+			(at 266.7 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 266.7 127 90)
 			(effects
 				(font
@@ -15321,15 +15330,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "180"
-			(at 102.87 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "P/N" "HE6206-33NR"
 			(at 102.87 29.21 0)
 			(effects
@@ -15340,6 +15340,15 @@
 			)
 		)
 		(property "mfg" "torex"
+			(at 102.87 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 102.87 29.21 0)
 			(effects
 				(font
@@ -15752,7 +15761,7 @@
 		(at 101.6 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "dc8f3d69-abe5-4270-9775-c196a7cca40b")
@@ -15904,7 +15913,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C46061682"
+		(property "LCSC" "C5242202"
 			(at 78.74 173.99 0)
 			(effects
 				(font
@@ -15913,7 +15922,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "HX PZ2.54-1x9P WT"
+		(property "P/N" "X6511WRS-09H-C60D48 "
 			(at 78.74 173.99 0)
 			(effects
 				(font
@@ -15931,7 +15940,25 @@
 				(hide yes)
 			)
 		)
-		(property "mfg" "hanxia"
+		(property "mfg" "XKB Connection"
+			(at 78.74 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "5,0"
+			(at 78.74 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
 			(at 78.74 173.99 0)
 			(effects
 				(font
@@ -16029,7 +16056,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C46061681"
+		(property "LCSC" "C5242201"
 			(at 93.98 172.72 0)
 			(effects
 				(font
@@ -16038,7 +16065,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "HX PZ2.54-1x8P WT"
+		(property "P/N" "X6511WRS-08H-C60D48 "
 			(at 93.98 172.72 0)
 			(effects
 				(font
@@ -16056,7 +16083,25 @@
 				(hide yes)
 			)
 		)
-		(property "mfg" "hanxia"
+		(property "mfg" "XKB Connection"
+			(at 93.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "5,0"
+			(at 93.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
 			(at 93.98 172.72 0)
 			(effects
 				(font
