@@ -8722,7 +8722,7 @@
 			(uuid "27fdadc9-dc6a-46bd-9926-e9c0860f57fd")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR022")
 					(unit 1)
@@ -9027,7 +9027,7 @@
 			(uuid "c888c744-417c-4504-9522-360dc1333d87")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR018")
 					(unit 1)
@@ -9067,7 +9067,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rhais_button-smd:B3U-1000P-B"
+		(property "Footprint" "rhais_button-smd:B3U-1000P"
 			(at 149.86 71.12 0)
 			(effects
 				(font
@@ -9137,7 +9137,7 @@
 			(uuid "0c48e9f9-fd76-4bc8-b3dc-901046ef0485")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "SW3")
 					(unit 1)
@@ -9208,7 +9208,7 @@
 			(uuid "aa3b6990-9a00-4fc5-baa9-c897bcc3c89f")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR08")
 					(unit 1)
@@ -9287,7 +9287,7 @@
 			(uuid "8230354c-f6c7-432a-a973-8947cf98d8fd")
 		)
 		(instances
-			(project ""
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "J1")
 					(unit 1)
@@ -9401,7 +9401,7 @@
 			(uuid "605ee457-4914-4c2e-8f9d-02d31c5f8c8d")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C14")
 					(unit 1)
@@ -9541,7 +9541,7 @@
 			(uuid "71157303-d71d-480e-a654-13cf4f3be993")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "U2")
 					(unit 1)
@@ -9763,7 +9763,7 @@
 			(uuid "706059cf-6df7-4b00-ab10-dc1847034ce3")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "R8")
 					(unit 1)
@@ -9834,7 +9834,7 @@
 			(uuid "2565c66f-f414-4eaa-ad4c-c5f1a4d11c6a")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR015")
 					(unit 1)
@@ -10112,7 +10112,7 @@
 			(uuid "a9d9e465-f83f-4a9e-8012-a5d98f0b071f")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR09")
 					(unit 1)
@@ -10233,7 +10233,7 @@
 			(uuid "372624f3-3929-4038-929e-a38ca958c042")
 		)
 		(instances
-			(project ""
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "D3")
 					(unit 1)
@@ -10298,7 +10298,7 @@
 			(uuid "37d5d3e8-3216-49b3-9787-6fe2f7eae79f")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR016")
 					(unit 1)
@@ -10470,7 +10470,7 @@
 			(uuid "89ca873f-2a09-45d3-b066-144c0b496b99")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "J4")
 					(unit 1)
@@ -10541,7 +10541,7 @@
 			(uuid "d795aaf7-d878-4b02-98f7-796eb4e6301e")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR03")
 					(unit 1)
@@ -10612,7 +10612,7 @@
 			(uuid "6d9a0b88-1d23-4829-a245-60f377407243")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#FLG02")
 					(unit 1)
@@ -10721,7 +10721,7 @@
 			(uuid "f463e38b-ae67-4a9f-ac5b-bec45af504b9")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "R5")
 					(unit 1)
@@ -10761,7 +10761,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rhais_button-smd:B3U-1000P-B"
+		(property "Footprint" "rhais_button-smd:B3U-1000P"
 			(at 72.39 127 0)
 			(effects
 				(font
@@ -10831,7 +10831,7 @@
 			(uuid "d558a989-fdb2-42a4-a015-7c1420a0c620")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "SW2")
 					(unit 1)
@@ -10951,7 +10951,7 @@
 			(uuid "aba465e8-da1c-4856-bf5e-e42bebe390b1")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C6")
 					(unit 1)
@@ -11023,7 +11023,7 @@
 			(uuid "ae505609-ea88-4f5a-b0ce-1d22bf4adacd")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR023")
 					(unit 1)
@@ -11253,7 +11253,7 @@
 			(uuid "30dec05f-9bd0-483b-8a07-e16250238ebe")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "D2")
 					(unit 1)
@@ -11318,7 +11318,7 @@
 			(uuid "e931cc3d-2cbb-4544-ad9b-9e465f5281ae")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR013")
 					(unit 1)
@@ -11438,7 +11438,7 @@
 			(uuid "8fb3441a-1f23-4f57-8f7e-4777c5e12f5f")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C9")
 					(unit 1)
@@ -11613,7 +11613,7 @@
 			(uuid "afe9f991-3a55-4437-bd94-f2b9785b1d6b")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR019")
 					(unit 1)
@@ -11733,7 +11733,7 @@
 			(uuid "4612b61c-0519-4fe8-88f8-c589d759b4d9")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C12")
 					(unit 1)
@@ -11853,7 +11853,7 @@
 			(uuid "bcf02b58-79ee-4774-8f07-3713a8acb6c2")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C4")
 					(unit 1)
@@ -11924,7 +11924,7 @@
 			(uuid "8673b84e-9510-4a7c-b332-5ecacdea82b5")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR04")
 					(unit 1)
@@ -12041,7 +12041,7 @@
 			(uuid "78d4bf30-10f2-4406-bda8-450547788fea")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "Y1")
 					(unit 1)
@@ -12159,7 +12159,7 @@
 			(uuid "3dfb97f1-6e89-4636-bc78-acc5927d37c9")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "FB1")
 					(unit 1)
@@ -12270,7 +12270,7 @@
 			(uuid "966dca6b-59d4-4367-9ca1-7006c7dddb4f")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C10")
 					(unit 1)
@@ -12445,7 +12445,7 @@
 			(uuid "1f40d8d3-63b3-4f0a-a50f-ee89c474e027")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR021")
 					(unit 1)
@@ -12559,7 +12559,7 @@
 			(uuid "356a95ec-62ab-475e-99c9-2c08bf4f0ae4")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C15")
 					(unit 1)
@@ -12630,7 +12630,7 @@
 			(uuid "94b42fe8-24b5-49df-9c40-7836db07e890")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR07")
 					(unit 1)
@@ -12701,7 +12701,7 @@
 			(uuid "9295e09d-c3c3-4ed7-87bc-f3b53d91b752")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR02")
 					(unit 1)
@@ -12821,7 +12821,7 @@
 			(uuid "441d9e59-2708-4340-a8ab-a2ac334e233b")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C19")
 					(unit 1)
@@ -12997,7 +12997,7 @@
 			(uuid "f17453e5-e566-434c-a1a3-1be1ac24ee34")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C16")
 					(unit 1)
@@ -13068,7 +13068,7 @@
 			(uuid "d7dc828c-7242-410a-b0e4-78456a02de17")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR014")
 					(unit 1)
@@ -13151,7 +13151,7 @@
 			(uuid "c1e87efb-136f-4bfd-9f30-148278ebabc0")
 		)
 		(instances
-			(project ""
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "J2")
 					(unit 1)
@@ -13394,7 +13394,7 @@
 			(uuid "71251cfa-fa3a-4268-bb8d-aab985688bbf")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "R7")
 					(unit 1)
@@ -13503,7 +13503,7 @@
 			(uuid "761b8fc7-bd16-4018-abfe-6268fb85a146")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "R12")
 					(unit 1)
@@ -13574,7 +13574,7 @@
 			(uuid "c7509d38-4c7c-4dcd-a321-33f43bd4aa0c")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR012")
 					(unit 1)
@@ -13646,7 +13646,7 @@
 			(uuid "6a7c4e66-6ff6-4f5f-9b99-91b933815291")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#FLG01")
 					(unit 1)
@@ -14342,7 +14342,7 @@
 			(uuid "e1841e71-4476-418c-88f1-c174d2437ecc")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "U3")
 					(unit 1)
@@ -14462,7 +14462,7 @@
 			(uuid "3e519bff-5a59-458f-8901-fc78f31f381e")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C7")
 					(unit 1)
@@ -14582,7 +14582,7 @@
 			(uuid "f45940f7-e475-45de-8944-4dff9525a325")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C13")
 					(unit 1)
@@ -14758,7 +14758,7 @@
 			(uuid "f6004b89-b0df-423e-a1fc-ce635203ec61")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C8")
 					(unit 1)
@@ -14878,7 +14878,7 @@
 			(uuid "65e75732-fa1e-4c1e-b70d-08d0f567d1fa")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C11")
 					(unit 1)
@@ -15015,7 +15015,7 @@
 			(uuid "6c4d5910-2d6e-438f-b406-a744f9c5c430")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR017")
 					(unit 1)
@@ -15124,7 +15124,7 @@
 			(uuid "76c3dcfa-34e4-4b4c-a4fd-cc7e3fbdc903")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "R4")
 					(unit 1)
@@ -15251,7 +15251,7 @@
 			(uuid "b7c2ce6e-21ae-40fd-8c7b-143450cc005c")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "D1")
 					(unit 1)
@@ -15367,7 +15367,7 @@
 			(uuid "16eb65bb-1290-41ca-8be1-6d4a45f57e25")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "U1")
 					(unit 1)
@@ -15470,7 +15470,7 @@
 			(uuid "2942921b-f760-44d0-a921-f5f843e65226")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "R3")
 					(unit 1)
@@ -16353,7 +16353,7 @@
 			(uuid "e954fba7-1594-42d0-926b-1040722b0e55")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C22")
 					(unit 1)
@@ -16568,7 +16568,7 @@
 			(uuid "3893635e-3a07-44aa-afe3-740c417f1a1b")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C2")
 					(unit 1)
@@ -16742,7 +16742,7 @@
 			(uuid "b3e9699b-df69-4766-8ba1-320f42e1974d")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR010")
 					(unit 1)
@@ -16782,7 +16782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rhais_button-smd:B3U-1000P-B"
+		(property "Footprint" "rhais_button-smd:B3U-1000P"
 			(at 261.62 66.04 0)
 			(effects
 				(font
@@ -16955,7 +16955,7 @@
 			(uuid "ca08dd5d-fa13-4713-8d25-b2c00dc7cb16")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "R1")
 					(unit 1)
@@ -17066,7 +17066,7 @@
 			(uuid "e62ff506-587b-47c2-a3b3-fa206f5520db")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C1")
 					(unit 1)
@@ -17137,7 +17137,7 @@
 			(uuid "57af488f-3310-4b50-a1d3-6e1727f2830e")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR020")
 					(unit 1)
