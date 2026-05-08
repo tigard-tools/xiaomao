@@ -5677,6 +5677,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 52.07) (xy 266.7 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "105f765a-9b00-4f14-b33a-967a6f7578fe")
+	)
+	(wire
+		(pts
 			(xy 163.83 93.98) (xy 177.8 93.98)
 		)
 		(stroke
@@ -5874,16 +5884,6 @@
 			(type default)
 		)
 		(uuid "21e6c3cb-377b-4a3f-bc41-dae5bdaed9a1")
-	)
-	(wire
-		(pts
-			(xy 266.7 55.88) (xy 266.7 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24217340-4b74-4e67-bf03-074c23873484")
 	)
 	(polyline
 		(pts
@@ -7876,7 +7876,7 @@
 		(uuid "396b3cb6-251e-4267-908b-3a4b542a1e22")
 	)
 	(label "GPIO28_ADC2{slash}BTN"
-		(at 266.7 55.88 180)
+		(at 266.7 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9772,6 +9772,110 @@
 			(project "tigard"
 				(path "/1bbd9c71-d6e9-4f3b-bc52-4931b5ad2556"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 266.7 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22a6b823-672c-44f7-976c-c8fd501a4599")
+		(property "Reference" "R25"
+			(at 271.526 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 271.526 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rhais_rcl:R0402"
+			(at 266.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 266.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "0402WGF1001TCE"
+			(at 266.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.00"
+			(at 266.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfg" "UNI-ROYAL"
+			(at 266.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af4bca47-e71c-4c0a-ad9e-0f45740b173c")
+		)
+		(pin "2"
+			(uuid "362a68df-5d24-4791-9bda-3d19a34b9bc2")
+		)
+		(instances
+			(project "xiaomao"
+				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
+					(reference "R25")
 					(unit 1)
 				)
 			)
