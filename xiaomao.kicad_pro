@@ -590,6 +590,12 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "Value",
           "name": "Value",
@@ -666,12 +672,6 @@
           "label": "mfg",
           "name": "mfg",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
         },
         {
           "group_by": false,

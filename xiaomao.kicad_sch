@@ -9059,7 +9059,7 @@
 				)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" "TD-1183SN-1.7H-160"
 			(at 148.59 73.025 0)
 			(effects
 				(font
@@ -9085,7 +9085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESET"
 			(at 154.94 71.12 0)
 			(effects
 				(font
@@ -9094,7 +9094,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2905194"
+		(property "LCSC" "C2905193"
 			(at 154.94 71.12 0)
 			(effects
 				(font
@@ -9433,7 +9433,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W25Q128JVP"
+		(property "Value" "ZD25Q128CWIGR"
 			(at 114.3 124.46 0)
 			(effects
 				(font
@@ -9450,7 +9450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+		(property "Datasheet" ""
 			(at 114.3 124.46 0)
 			(effects
 				(font
@@ -9468,7 +9468,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C190862"
+		(property "LCSC" "C53959302"
 			(at 114.3 124.46 0)
 			(effects
 				(font
@@ -9477,7 +9477,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "W25Q128JVPIQ"
+		(property "P/N" "ZD25Q128CWIGR"
 			(at 114.3 124.46 0)
 			(effects
 				(font
@@ -9486,7 +9486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$1.65"
+		(property "Price" "$1.29"
 			(at 114.3 124.46 0)
 			(effects
 				(font
@@ -9495,7 +9495,7 @@
 				(hide yes)
 			)
 		)
-		(property "mfg" "Winbond"
+		(property "mfg" "Zetta"
 			(at 114.3 124.46 0)
 			(effects
 				(font
@@ -9504,7 +9504,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "-90"
+		(property "FT Rotation Offset" ""
 			(at 114.3 124.46 0)
 			(effects
 				(font
@@ -10857,7 +10857,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_BOOT"
+		(property "Value" "TD-1183SN-1.7H-160"
 			(at 69.85 127 0)
 			(effects
 				(font
@@ -10883,7 +10883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB_BOOT"
 			(at 77.47 127 0)
 			(effects
 				(font
@@ -10892,7 +10892,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2905194"
+		(property "LCSC" "C2905193"
 			(at 77.47 127 0)
 			(effects
 				(font
@@ -11335,7 +11335,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "90"
+		(property "FT Rotation Offset" ""
 			(at 266.7 142.24 90)
 			(effects
 				(font
@@ -15333,7 +15333,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "90"
+		(property "FT Rotation Offset" ""
 			(at 266.7 127 90)
 			(effects
 				(font
@@ -16878,7 +16878,7 @@
 				)
 			)
 		)
-		(property "Value" "BUTTON"
+		(property "Value" "TD-1183SN-1.7H-160"
 			(at 259.08 66.04 0)
 			(effects
 				(font
@@ -16904,7 +16904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "BTN"
 			(at 266.7 66.04 0)
 			(effects
 				(font
@@ -16913,7 +16913,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2905194"
+		(property "LCSC" "C2905193"
 			(at 266.7 66.04 0)
 			(effects
 				(font
