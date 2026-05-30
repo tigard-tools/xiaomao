@@ -2147,6 +2147,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:FerriteBead_Small"
 			(pin_numbers
 				(hide yes)
@@ -5358,12 +5508,6 @@
 		(uuid "bba652ba-8334-4b5f-956e-fe33b370279b")
 	)
 	(junction
-		(at 58.42 19.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bfc759f7-275d-4954-9a5b-e34feb4530a8")
-	)
-	(junction
 		(at 179.07 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5420,10 +5564,6 @@
 		(uuid "639917c5-be6d-4fd1-910d-633818fab8ac")
 	)
 	(no_connect
-		(at 228.6 137.16)
-		(uuid "82c09b38-a58b-4984-82aa-dfc4a8dc9521")
-	)
-	(no_connect
 		(at 228.6 124.46)
 		(uuid "8eb535d3-b506-4bd8-a421-520ea9d0fd07")
 	)
@@ -5444,20 +5584,12 @@
 		(uuid "ab2947a7-ac8a-4054-9c6f-bcc4250802bd")
 	)
 	(no_connect
-		(at 228.6 139.7)
-		(uuid "b0a02cb3-a02b-437c-97c7-5d0cb1a64dff")
-	)
-	(no_connect
 		(at 46.99 59.69)
 		(uuid "b8db1234-a6d5-4c7f-9a1e-4eea451192d8")
 	)
 	(no_connect
 		(at 228.6 99.06)
 		(uuid "ccec27f1-a254-4c02-b7eb-7013bf4830ab")
-	)
-	(no_connect
-		(at 228.6 142.24)
-		(uuid "ce94c543-b70e-44a6-8570-883b9ccf204b")
 	)
 	(no_connect
 		(at 266.7 149.86)
@@ -5857,16 +5989,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 19.05) (xy 60.96 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "200189a3-8022-49a4-9b85-461176833370")
-	)
-	(wire
-		(pts
 			(xy 228.6 81.28) (xy 243.84 81.28)
 		)
 		(stroke
@@ -6007,7 +6129,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 19.05) (xy 57.15 19.05)
+			(xy 58.42 19.05) (xy 62.23 19.05)
 		)
 		(stroke
 			(width 0)
@@ -6037,7 +6159,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 29.21) (xy 90.17 29.21)
+			(xy 83.82 29.21) (xy 90.17 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "394bd9fc-fb7b-4eca-919d-5f378fccbd62")
+	)
+	(wire
+		(pts
+			(xy 63.5 29.21) (xy 76.2 29.21)
 		)
 		(stroke
 			(width 0)
@@ -7786,7 +7918,7 @@
 		(uuid "1e1a5462-6c21-43b7-803f-f16b116d2f5a")
 	)
 	(label "GPIO29_ADC3{slash}USB"
-		(at 60.96 19.05 0)
+		(at 62.23 19.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8044,16 +8176,6 @@
 			(justify right bottom)
 		)
 		(uuid "5867cdd1-4a29-4522-8cfb-ccc0f8b298fd")
-	)
-	(label "SHIELD"
-		(at 24.13 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "58f645df-b13b-4c82-9ea6-128f1a17c6e5")
 	)
 	(label "GPIO10"
 		(at 243.84 91.44 180)
@@ -16355,6 +16477,119 @@
 			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 80.01 29.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4af8bc6-919c-41fe-9989-92a9437252e5")
+		(property "Reference" "D4"
+			(at 80.3275 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 80.3275 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 80.01 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 80.01 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5310951"
+			(at 80.01 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "TPMEG3005EB"
+			(at 80.01 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.03"
+			(at 80.01 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfg" "TECH PUBLIC"
+			(at 80.01 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 80.01 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "62564787-8318-4ecb-a0d8-6d40eee16fa8")
+		)
+		(pin "1"
+			(uuid "9d598b0f-4060-45fc-aad3-df31d1f01dba")
+		)
+		(instances
+			(project "xiaomao"
+				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
+					(reference "D4")
 					(unit 1)
 				)
 			)
