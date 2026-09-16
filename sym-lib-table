@@ -4,4 +4,5 @@
   (lib (name "xiaomao-rescue")(type "KiCad")(uri "${KIPRJMOD}/xiaomao-rescue.kicad_sym")(options "")(descr ""))
   (lib (name "ws2812")(type "KiCad")(uri "${KIPRJMOD}/ws2812b.kicad_sym")(options "")(descr ""))
   (lib (name "xiaomao")(type "KiCad")(uri "${KIPRJMOD}/libs/xiaomao.kicad_sym")(options "")(descr ""))
+  (lib (name "samtec1x08")(type "KiCad")(uri "${KIPRJMOD}/libs/tsm/TSM-108-01-T-SH-A-P-TR.kicad_sym")(options "")(descr ""))
 )

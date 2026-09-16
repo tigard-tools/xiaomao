@@ -2147,6 +2147,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:FerriteBead_Small"
 			(pin_numbers
 				(hide yes)
@@ -2281,6 +2431,189 @@
 					(at 0 -2.54 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5067,6 +5400,12 @@
 		(uuid "49482c2e-a783-4ccc-bb99-f38fa7053d35")
 	)
 	(junction
+		(at 46.99 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "495d822c-0878-4ec3-98f9-ff25e8c2e177")
+	)
+	(junction
 		(at 242.57 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5225,10 +5564,6 @@
 		(uuid "639917c5-be6d-4fd1-910d-633818fab8ac")
 	)
 	(no_connect
-		(at 228.6 137.16)
-		(uuid "82c09b38-a58b-4984-82aa-dfc4a8dc9521")
-	)
-	(no_connect
 		(at 228.6 124.46)
 		(uuid "8eb535d3-b506-4bd8-a421-520ea9d0fd07")
 	)
@@ -5249,20 +5584,12 @@
 		(uuid "ab2947a7-ac8a-4054-9c6f-bcc4250802bd")
 	)
 	(no_connect
-		(at 228.6 139.7)
-		(uuid "b0a02cb3-a02b-437c-97c7-5d0cb1a64dff")
-	)
-	(no_connect
 		(at 46.99 59.69)
 		(uuid "b8db1234-a6d5-4c7f-9a1e-4eea451192d8")
 	)
 	(no_connect
 		(at 228.6 99.06)
 		(uuid "ccec27f1-a254-4c02-b7eb-7013bf4830ab")
-	)
-	(no_connect
-		(at 228.6 142.24)
-		(uuid "ce94c543-b70e-44a6-8570-883b9ccf204b")
 	)
 	(no_connect
 		(at 266.7 149.86)
@@ -5482,6 +5809,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 52.07) (xy 266.7 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "105f765a-9b00-4f14-b33a-967a6f7578fe")
+	)
+	(wire
+		(pts
 			(xy 163.83 93.98) (xy 177.8 93.98)
 		)
 		(stroke
@@ -5629,6 +5966,16 @@
 			(type default)
 		)
 		(uuid "1d134d24-72f8-4f63-aca5-1945db778e9c")
+	)
+	(wire
+		(pts
+			(xy 275.59 45.72) (xy 275.59 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dfe5af6-587e-4ef9-bb41-d432eebc3857")
 	)
 	(wire
 		(pts
@@ -5782,6 +6129,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 19.05) (xy 62.23 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b003d3-fb63-49e6-bbaf-745927d9b1d7")
+	)
+	(wire
+		(pts
 			(xy 179.07 20.32) (xy 190.5 20.32)
 		)
 		(stroke
@@ -5799,6 +6156,26 @@
 			(type default)
 		)
 		(uuid "37d75c2f-8c59-4f35-8279-87f90703f140")
+	)
+	(wire
+		(pts
+			(xy 83.82 29.21) (xy 90.17 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "394bd9fc-fb7b-4eca-919d-5f378fccbd62")
+	)
+	(wire
+		(pts
+			(xy 63.5 29.21) (xy 76.2 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39dc1d53-4d02-46ef-b069-bdf15d3acb9a")
 	)
 	(wire
 		(pts
@@ -6069,16 +6446,6 @@
 			(type default)
 		)
 		(uuid "58f6288c-a36e-4679-981c-30b4055be23c")
-	)
-	(wire
-		(pts
-			(xy 63.5 29.21) (xy 90.17 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "592c6784-632c-43a1-94bb-e5d9735b6a80")
 	)
 	(wire
 		(pts
@@ -6872,6 +7239,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 29.21) (xy 46.99 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd84afa2-2f9e-468f-a3a3-b1f4e8e45bb2")
+	)
+	(wire
+		(pts
 			(xy 99.06 175.26) (xy 111.76 175.26)
 		)
 		(stroke
@@ -6939,6 +7316,16 @@
 			(type dash)
 		)
 		(uuid "ca0f506c-b417-46bf-a95e-5b171afa3ebc")
+	)
+	(wire
+		(pts
+			(xy 46.99 19.05) (xy 53.34 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca93905b-b06c-42dc-a1c3-01f29888021c")
 	)
 	(wire
 		(pts
@@ -7530,6 +7917,16 @@
 		)
 		(uuid "1e1a5462-6c21-43b7-803f-f16b116d2f5a")
 	)
+	(label "GPIO29_ADC3{slash}USB"
+		(at 62.23 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fcb71f8-d362-40ff-a4e8-81279b5aa355")
+	)
 	(label "GPIO24"
 		(at 243.84 127 180)
 		(effects
@@ -7580,7 +7977,7 @@
 		)
 		(uuid "32aedb30-0b79-4496-a1e0-c28a07ea4c7e")
 	)
-	(label "GPIO29_ADC3"
+	(label "GPIO29_ADC3{slash}USB"
 		(at 243.84 142.24 180)
 		(effects
 			(font
@@ -7600,7 +7997,7 @@
 		)
 		(uuid "37897e4e-c3cb-4b1e-aa15-2142499957fe")
 	)
-	(label "D6"
+	(label "TX"
 		(at 69.85 168.91 180)
 		(effects
 			(font
@@ -7610,7 +8007,17 @@
 		)
 		(uuid "396b3cb6-251e-4267-908b-3a4b542a1e22")
 	)
-	(label "GPIO28_ADC2"
+	(label "GPIO28_ADC2{slash}BTN"
+		(at 266.7 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "39850edd-f698-4df9-bbb8-d8078d539bb5")
+	)
+	(label "GPIO28_ADC2{slash}BTN"
 		(at 243.84 139.7 180)
 		(effects
 			(font
@@ -7750,7 +8157,7 @@
 		)
 		(uuid "57d1e578-733a-4aad-b45b-ee46386b42aa")
 	)
-	(label "D8"
+	(label "CTS"
 		(at 69.85 173.99 180)
 		(effects
 			(font
@@ -7769,16 +8176,6 @@
 			(justify right bottom)
 		)
 		(uuid "5867cdd1-4a29-4522-8cfb-ccc0f8b298fd")
-	)
-	(label "SHIELD"
-		(at 24.13 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "58f645df-b13b-4c82-9ea6-128f1a17c6e5")
 	)
 	(label "GPIO10"
 		(at 243.84 91.44 180)
@@ -7800,7 +8197,7 @@
 		)
 		(uuid "5dd1cb6d-5bf4-4c35-ace9-a7e45ba4d3e8")
 	)
-	(label "GPIO27_ADC1"
+	(label "GPIO27_ADC1_LED"
 		(at 243.84 137.16 180)
 		(effects
 			(font
@@ -7900,7 +8297,7 @@
 		)
 		(uuid "84ee6cbc-84c9-4907-a15e-0e2fc7653887")
 	)
-	(label "D7"
+	(label "RX"
 		(at 69.85 171.45 180)
 		(effects
 			(font
@@ -8070,6 +8467,16 @@
 		)
 		(uuid "ad4eb4f7-628f-4338-9183-d44324be72bd")
 	)
+	(label "GPIO27_ADC1_LED"
+		(at 275.59 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aebef630-7e66-4bff-bb97-a3ef9e57ceb3")
+	)
 	(label "GPIO22"
 		(at 50.8 184.15 180)
 		(effects
@@ -8170,7 +8577,7 @@
 		)
 		(uuid "cfc77103-41a7-4f93-af29-f00643b74e2b")
 	)
-	(label "D11"
+	(label "RX1"
 		(at 69.85 181.61 180)
 		(effects
 			(font
@@ -8280,7 +8687,7 @@
 		)
 		(uuid "e940b5f2-e390-4089-9360-e40f0127abdc")
 	)
-	(label "D9"
+	(label "RTS"
 		(at 69.85 176.53 180)
 		(effects
 			(font
@@ -8360,7 +8767,7 @@
 		)
 		(uuid "f839416b-aedd-430a-985a-f03cae8c682b")
 	)
-	(label "D12"
+	(label "CTS1"
 		(at 69.85 184.15 180)
 		(effects
 			(font
@@ -8370,7 +8777,7 @@
 		)
 		(uuid "fca0a200-c1e4-4b97-b64e-ade350b30572")
 	)
-	(label "D10"
+	(label "TX1"
 		(at 69.85 179.07 180)
 		(effects
 			(font
@@ -8437,7 +8844,7 @@
 			(uuid "27fdadc9-dc6a-46bd-9926-e9c0860f57fd")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR022")
 					(unit 1)
@@ -8582,6 +8989,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 275.59 60.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0802a7ed-1869-46ff-895a-b773549aba7f")
+		(property "Reference" "R24"
+			(at 280.416 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200"
+			(at 280.416 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rhais_rcl:R0402"
+			(at 275.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 275.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 275.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25087"
+			(at 275.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "0402WGF2000TCE"
+			(at 275.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.00"
+			(at 275.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfg" "UNI-ROYAL"
+			(at 275.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2670802b-21a0-4272-88a2-6084642c52e4")
+		)
+		(pin "2"
+			(uuid "7cbfccf6-afe3-4973-9b4c-39042436f59c")
+		)
+		(instances
+			(project "xiaomao"
+				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 222.25 45.72 0)
 		(unit 1)
@@ -8638,7 +9149,7 @@
 			(uuid "c888c744-417c-4504-9522-360dc1333d87")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR018")
 					(unit 1)
@@ -8670,7 +9181,7 @@
 				)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" "TD-1183SN-1.7H-160"
 			(at 148.59 73.025 0)
 			(effects
 				(font
@@ -8678,7 +9189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rhais_button-smd:B3U-1000P-B"
+		(property "Footprint" "rhais_button-smd:B3U-1000P"
 			(at 149.86 71.12 0)
 			(effects
 				(font
@@ -8696,7 +9207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESET"
 			(at 154.94 71.12 0)
 			(effects
 				(font
@@ -8705,7 +9216,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2905194"
+		(property "LCSC" "C2905193"
 			(at 154.94 71.12 0)
 			(effects
 				(font
@@ -8723,7 +9234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.41"
+		(property "Price" "$.09"
 			(at 154.94 71.12 0)
 			(effects
 				(font
@@ -8748,7 +9259,7 @@
 			(uuid "0c48e9f9-fd76-4bc8-b3dc-901046ef0485")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "SW3")
 					(unit 1)
@@ -8819,7 +9330,7 @@
 			(uuid "aa3b6990-9a00-4fc5-baa9-c897bcc3c89f")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR08")
 					(unit 1)
@@ -8838,7 +9349,7 @@
 		(at 127 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "12997fae-7454-4550-bc5c-7a13e995b06f")
@@ -8858,7 +9369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rhais_connector-pinheader:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "rhais_connector-pinheader:PinHeader_1x04_P1.27mm_Vertical"
 			(at 127 68.58 0)
 			(effects
 				(font
@@ -8898,7 +9409,7 @@
 			(uuid "8230354c-f6c7-432a-a973-8947cf98d8fd")
 		)
 		(instances
-			(project ""
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "J1")
 					(unit 1)
@@ -9012,7 +9523,7 @@
 			(uuid "605ee457-4914-4c2e-8f9d-02d31c5f8c8d")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C14")
 					(unit 1)
@@ -9044,7 +9555,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W25Q128JVP"
+		(property "Value" "ZD25Q128CWIGR"
 			(at 114.3 124.46 0)
 			(effects
 				(font
@@ -9061,7 +9572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+		(property "Datasheet" ""
 			(at 114.3 124.46 0)
 			(effects
 				(font
@@ -9079,7 +9590,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C190862"
+		(property "LCSC" "C53959302"
 			(at 114.3 124.46 0)
 			(effects
 				(font
@@ -9088,7 +9599,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "W25Q128JVPIQ"
+		(property "P/N" "ZD25Q128CWIGR"
 			(at 114.3 124.46 0)
 			(effects
 				(font
@@ -9097,7 +9608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.65"
+		(property "Price" "$1.29"
 			(at 114.3 124.46 0)
 			(effects
 				(font
@@ -9106,7 +9617,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "-90"
+		(property "mfg" "Zetta"
 			(at 114.3 124.46 0)
 			(effects
 				(font
@@ -9115,7 +9626,7 @@
 				(hide yes)
 			)
 		)
-		(property "mfg" "Winbond"
+		(property "FT Rotation Offset" ""
 			(at 114.3 124.46 0)
 			(effects
 				(font
@@ -9152,7 +9663,7 @@
 			(uuid "71157303-d71d-480e-a654-13cf4f3be993")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "U2")
 					(unit 1)
@@ -9374,7 +9885,7 @@
 			(uuid "706059cf-6df7-4b00-ab10-dc1847034ce3")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "R8")
 					(unit 1)
@@ -9383,6 +9894,110 @@
 			(project "tigard"
 				(path "/1bbd9c71-d6e9-4f3b-bc52-4931b5ad2556"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 266.7 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22a6b823-672c-44f7-976c-c8fd501a4599")
+		(property "Reference" "R25"
+			(at 271.526 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 271.526 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rhais_rcl:R0402"
+			(at 266.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 266.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "0402WGF1001TCE"
+			(at 266.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.00"
+			(at 266.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfg" "UNI-ROYAL"
+			(at 266.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af4bca47-e71c-4c0a-ad9e-0f45740b173c")
+		)
+		(pin "2"
+			(uuid "362a68df-5d24-4791-9bda-3d19a34b9bc2")
+		)
+		(instances
+			(project "xiaomao"
+				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -9445,7 +10060,7 @@
 			(uuid "2565c66f-f414-4eaa-ad4c-c5f1a4d11c6a")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR015")
 					(unit 1)
@@ -9723,7 +10338,7 @@
 			(uuid "a9d9e465-f83f-4a9e-8012-a5d98f0b071f")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR09")
 					(unit 1)
@@ -9732,6 +10347,121 @@
 			(project "RP2040_minimal"
 				(path "/a9862e0d-3ce7-4836-a3aa-a28e96dbe90c"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 275.59 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32c4a67b-0b17-4d01-8794-1b4ff364a429")
+		(property "Reference" "D3"
+			(at 279.4 67.6274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 279.4 70.1674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "rhais_rcl:L0402"
+			(at 275.59 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25503345.pdf?spm=wm.fly.bg.1.pdf___wm.sxq.ssx.spl&lcsc_vid=TgILUlZQQANcVwcAElJZA11UQlkIUwACFlZeUlQHEVcxVlNRQVlZUFxRT1hZUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktRTlNADxALGw%3D%3D"
+			(at 275.59 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 275.59 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 275.59 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25503345"
+			(at 275.59 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "XL-1005SURC"
+			(at 275.59 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.00"
+			(at 275.59 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfg" "XINGLIGHT"
+			(at 275.59 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf7b770a-b651-4c56-b087-db31a23bf0c6")
+		)
+		(pin "2"
+			(uuid "372624f3-3929-4038-929e-a38ca958c042")
+		)
+		(instances
+			(project "xiaomao"
+				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -9794,7 +10524,7 @@
 			(uuid "37d5d3e8-3216-49b3-9787-6fe2f7eae79f")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR016")
 					(unit 1)
@@ -9887,16 +10617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.20"
-			(at 31.75 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" "0,1.27"
+		(property "Price" "$0.06"
 			(at 31.75 46.99 0)
 			(effects
 				(font
@@ -9906,6 +10627,15 @@
 			)
 		)
 		(property "mfg" "DEALON"
+			(at 31.75 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "0,1.27"
 			(at 31.75 46.99 0)
 			(effects
 				(font
@@ -9966,7 +10696,7 @@
 			(uuid "89ca873f-2a09-45d3-b066-144c0b496b99")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "J4")
 					(unit 1)
@@ -10037,7 +10767,7 @@
 			(uuid "d795aaf7-d878-4b02-98f7-796eb4e6301e")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR03")
 					(unit 1)
@@ -10108,7 +10838,7 @@
 			(uuid "6d9a0b88-1d23-4829-a245-60f377407243")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#FLG02")
 					(unit 1)
@@ -10217,7 +10947,7 @@
 			(uuid "f463e38b-ae67-4a9f-ac5b-bec45af504b9")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "R5")
 					(unit 1)
@@ -10249,7 +10979,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_BOOT"
+		(property "Value" "TD-1183SN-1.7H-160"
 			(at 69.85 127 0)
 			(effects
 				(font
@@ -10257,7 +10987,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rhais_button-smd:B3U-1000P-B"
+		(property "Footprint" "rhais_button-smd:B3U-1000P"
 			(at 72.39 127 0)
 			(effects
 				(font
@@ -10275,7 +11005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB_BOOT"
 			(at 77.47 127 0)
 			(effects
 				(font
@@ -10284,7 +11014,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2905194"
+		(property "LCSC" "C2905193"
 			(at 77.47 127 0)
 			(effects
 				(font
@@ -10302,7 +11032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.41 "
+		(property "Price" "$.09"
 			(at 77.47 127 0)
 			(effects
 				(font
@@ -10327,7 +11057,7 @@
 			(uuid "d558a989-fdb2-42a4-a015-7c1420a0c620")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "SW2")
 					(unit 1)
@@ -10447,7 +11177,7 @@
 			(uuid "aba465e8-da1c-4856-bf5e-e42bebe390b1")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C6")
 					(unit 1)
@@ -10519,7 +11249,7 @@
 			(uuid "ae505609-ea88-4f5a-b0ce-1d22bf4adacd")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR023")
 					(unit 1)
@@ -10709,7 +11439,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "90"
+		(property "mfg" "XINGLIGHT"
 			(at 266.7 142.24 0)
 			(effects
 				(font
@@ -10718,8 +11448,17 @@
 				(hide yes)
 			)
 		)
-		(property "mfg" "XINGLIGHT"
-			(at 266.7 142.24 0)
+		(property "Price" "$0.04"
+			(at 266.7 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 266.7 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10740,7 +11479,7 @@
 			(uuid "30dec05f-9bd0-483b-8a07-e16250238ebe")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "D2")
 					(unit 1)
@@ -10805,7 +11544,7 @@
 			(uuid "e931cc3d-2cbb-4544-ad9b-9e465f5281ae")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR013")
 					(unit 1)
@@ -10925,7 +11664,7 @@
 			(uuid "8fb3441a-1f23-4f57-8f7e-4777c5e12f5f")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C9")
 					(unit 1)
@@ -11100,7 +11839,7 @@
 			(uuid "afe9f991-3a55-4437-bd94-f2b9785b1d6b")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR019")
 					(unit 1)
@@ -11220,7 +11959,7 @@
 			(uuid "4612b61c-0519-4fe8-88f8-c589d759b4d9")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C12")
 					(unit 1)
@@ -11340,7 +12079,7 @@
 			(uuid "bcf02b58-79ee-4774-8f07-3713a8acb6c2")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C4")
 					(unit 1)
@@ -11411,7 +12150,7 @@
 			(uuid "8673b84e-9510-4a7c-b332-5ecacdea82b5")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR04")
 					(unit 1)
@@ -11528,7 +12267,7 @@
 			(uuid "78d4bf30-10f2-4406-bda8-450547788fea")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "Y1")
 					(unit 1)
@@ -11567,7 +12306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rhais_rcl:L0402"
+		(property "Footprint" "rhais_rcl:L0603"
 			(at 55.88 27.432 90)
 			(effects
 				(font
@@ -11621,7 +12360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Price" "$0.01"
 			(at 55.88 29.21 0)
 			(effects
 				(font
@@ -11630,7 +12369,7 @@
 				(hide yes)
 			)
 		)
-		(property "mfg" ""
+		(property "mfg" "Sunlord"
 			(at 55.88 29.21 0)
 			(effects
 				(font
@@ -11646,7 +12385,7 @@
 			(uuid "3dfb97f1-6e89-4636-bc78-acc5927d37c9")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "FB1")
 					(unit 1)
@@ -11757,7 +12496,7 @@
 			(uuid "966dca6b-59d4-4367-9ca1-7006c7dddb4f")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C10")
 					(unit 1)
@@ -11932,7 +12671,7 @@
 			(uuid "1f40d8d3-63b3-4f0a-a50f-ee89c474e027")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR021")
 					(unit 1)
@@ -12046,7 +12785,7 @@
 			(uuid "356a95ec-62ab-475e-99c9-2c08bf4f0ae4")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C15")
 					(unit 1)
@@ -12117,7 +12856,7 @@
 			(uuid "94b42fe8-24b5-49df-9c40-7836db07e890")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR07")
 					(unit 1)
@@ -12188,7 +12927,7 @@
 			(uuid "9295e09d-c3c3-4ed7-87bc-f3b53d91b752")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR02")
 					(unit 1)
@@ -12308,7 +13047,7 @@
 			(uuid "441d9e59-2708-4340-a8ab-a2ac334e233b")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C19")
 					(unit 1)
@@ -12317,6 +13056,71 @@
 			(project "tigard"
 				(path "/1bbd9c71-d6e9-4f3b-bc52-4931b5ad2556"
 					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 266.7 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9954e06f-4d32-4ce0-a2c2-bc88088e837f")
+		(property "Reference" "#PWR024"
+			(at 266.7 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.827 75.5142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40465f7d-5d4c-40e3-9ce7-9b4a7a0be6f9")
+		)
+		(instances
+			(project "xiaomao"
+				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -12419,7 +13223,7 @@
 			(uuid "f17453e5-e566-434c-a1a3-1be1ac24ee34")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C16")
 					(unit 1)
@@ -12490,7 +13294,7 @@
 			(uuid "d7dc828c-7242-410a-b0e4-78456a02de17")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR014")
 					(unit 1)
@@ -12573,7 +13377,7 @@
 			(uuid "c1e87efb-136f-4bfd-9f30-148278ebabc0")
 		)
 		(instances
-			(project ""
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "J2")
 					(unit 1)
@@ -12816,7 +13620,7 @@
 			(uuid "71251cfa-fa3a-4268-bb8d-aab985688bbf")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "R7")
 					(unit 1)
@@ -12925,7 +13729,7 @@
 			(uuid "761b8fc7-bd16-4018-abfe-6268fb85a146")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "R12")
 					(unit 1)
@@ -12996,7 +13800,7 @@
 			(uuid "c7509d38-4c7c-4dcd-a321-33f43bd4aa0c")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR012")
 					(unit 1)
@@ -13068,7 +13872,7 @@
 			(uuid "6a7c4e66-6ff6-4f5f-9b99-91b933815291")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#FLG01")
 					(unit 1)
@@ -13294,7 +14098,7 @@
 		(at 101.6 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "b55bdfc9-b927-4716-8b8c-c841769f2853")
@@ -13583,6 +14387,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "-90"
+			(at 203.2 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1c692ec0-ebdb-464b-9041-2cc621f5b4c1")
 		)
@@ -13755,7 +14568,7 @@
 			(uuid "e1841e71-4476-418c-88f1-c174d2437ecc")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "U3")
 					(unit 1)
@@ -13875,7 +14688,7 @@
 			(uuid "3e519bff-5a59-458f-8901-fc78f31f381e")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C7")
 					(unit 1)
@@ -13995,7 +14808,7 @@
 			(uuid "f45940f7-e475-45de-8944-4dff9525a325")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C13")
 					(unit 1)
@@ -14004,6 +14817,71 @@
 			(project "RP2040_minimal"
 				(path "/a9862e0d-3ce7-4836-a3aa-a28e96dbe90c"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 275.59 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c04a901b-1dc8-4d69-a4cb-c8c33b932279")
+		(property "Reference" "#PWR027"
+			(at 275.59 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 275.717 75.5142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 275.59 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8eb31f05-51f3-43ec-a3be-c741f1bbc286")
+		)
+		(instances
+			(project "xiaomao"
+				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -14106,7 +14984,7 @@
 			(uuid "f6004b89-b0df-423e-a1fc-ce635203ec61")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C8")
 					(unit 1)
@@ -14226,7 +15104,7 @@
 			(uuid "65e75732-fa1e-4c1e-b70d-08d0f567d1fa")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C11")
 					(unit 1)
@@ -14363,7 +15241,7 @@
 			(uuid "6c4d5910-2d6e-438f-b406-a744f9c5c430")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR017")
 					(unit 1)
@@ -14472,7 +15350,7 @@
 			(uuid "76c3dcfa-34e4-4b4c-a4fd-cc7e3fbdc903")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "R4")
 					(unit 1)
@@ -14559,7 +15437,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "90"
+		(property "mfg" "XINGLIGHT"
 			(at 266.7 127 0)
 			(effects
 				(font
@@ -14568,8 +15446,17 @@
 				(hide yes)
 			)
 		)
-		(property "mfg" "XINGLIGHT"
-			(at 266.7 127 0)
+		(property "Price" "$0.04"
+			(at 266.7 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 266.7 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14590,7 +15477,7 @@
 			(uuid "b7c2ce6e-21ae-40fd-8c7b-143450cc005c")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "D1")
 					(unit 1)
@@ -14651,7 +15538,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5446"
+		(property "LCSC" "C5199441"
 			(at 102.87 29.21 0)
 			(effects
 				(font
@@ -14660,7 +15547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.0178"
+		(property "Price" "$0.022"
 			(at 102.87 29.21 0)
 			(effects
 				(font
@@ -14669,7 +15556,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "180"
+		(property "P/N" "HE6206-33NR"
 			(at 102.87 29.21 0)
 			(effects
 				(font
@@ -14678,7 +15565,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "XC6206P332MR-G "
+		(property "mfg" "torex"
 			(at 102.87 29.21 0)
 			(effects
 				(font
@@ -14687,7 +15574,7 @@
 				(hide yes)
 			)
 		)
-		(property "mfg" ""
+		(property "FT Rotation Offset" ""
 			(at 102.87 29.21 0)
 			(effects
 				(font
@@ -14706,7 +15593,7 @@
 			(uuid "16eb65bb-1290-41ca-8be1-6d4a45f57e25")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "U1")
 					(unit 1)
@@ -14809,7 +15696,7 @@
 			(uuid "2942921b-f760-44d0-a921-f5f843e65226")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "R3")
 					(unit 1)
@@ -15100,7 +15987,7 @@
 		(at 101.6 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "dc8f3d69-abe5-4270-9775-c196a7cca40b")
@@ -15225,7 +16112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "rhais_connector-pinheader:PinHeader_1x09_P2.54mm_Horizontal"
+		(property "Footprint" "rhais_connector-pinheader:PinHeader_1x09_P2.54mm_Horizontal_SMD"
 			(at 78.74 173.99 0)
 			(effects
 				(font
@@ -15234,7 +16121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C20610218.pdf?spm=wm.fly.bg.1.pdf___wm.sxq.ssx.dcs.1&lcsc_vid=EwdcX1xeEQIMUwFSE1lbBAEAFlYMA1JURlANXlZVEwQxVlNRQVldVVZfRFleXjsOAxUeFF5JWAYHEwwTFU8NCAlJ"
 			(at 78.74 173.99 0)
 			(effects
 				(font
@@ -15252,7 +16139,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C706872"
+		(property "LCSC" "C5242202"
 			(at 78.74 173.99 0)
 			(effects
 				(font
@@ -15261,7 +16148,43 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "X6511WR-09H-C60D30R2 "
+		(property "P/N" "X6511WRS-09H-C60D48 "
+			(at 78.74 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.08"
+			(at 78.74 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfg" "XKB Connection"
+			(at 78.74 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "5,0"
+			(at 78.74 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
 			(at 78.74 173.99 0)
 			(effects
 				(font
@@ -15332,7 +16255,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rhais_connector-pinheader:PinHeader_1x08_P2.54mm_Horizontal"
+		(property "Footprint" "rhais_connector-pinheader:PinHeader_1x08_P2.54mm_Horizontal_SMD"
 			(at 93.98 172.72 0)
 			(effects
 				(font
@@ -15341,7 +16264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C20610217.pdf?spm=wm.fly.bg.0.pdf___wm.sxq.ssx.dcs.1&lcsc_vid=EwdcX1xeEQIMUwFSE1lbBAEAFlYMA1JURlANXlZVEwQxVlNRQVldVVZfRFleXjsOAxUeFF5JWAYHEwwTFU8NCAlJ"
 			(at 93.98 172.72 0)
 			(effects
 				(font
@@ -15359,7 +16282,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C706871"
+		(property "LCSC" "C5242201"
 			(at 93.98 172.72 0)
 			(effects
 				(font
@@ -15368,7 +16291,43 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "X6511WR-08H-C60D30R2 "
+		(property "P/N" "X6511WRS-08H-C60D48 "
+			(at 93.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.08"
+			(at 93.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfg" "XKB Connection"
+			(at 93.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "5,0"
+			(at 93.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
 			(at 93.98 172.72 0)
 			(effects
 				(font
@@ -15405,6 +16364,232 @@
 			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 55.88 19.05 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e11e8a07-3a11-4c62-b53d-567cc5398600")
+		(property "Reference" "R23"
+			(at 55.88 13.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k1"
+			(at 55.88 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rhais_rcl:R0402"
+			(at 55.88 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "0402WGF5101TCE"
+			(at 55.88 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 55.88 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" ""
+			(at 55.88 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.00"
+			(at 55.88 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfg" "UNI-ROYAL"
+			(at 55.88 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcf732a5-4b66-46b3-97cf-0779db7f8243")
+		)
+		(pin "2"
+			(uuid "6656efe3-cb68-445f-8423-ed6ded53fcb5")
+		)
+		(instances
+			(project "xiaomao"
+				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 80.01 29.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4af8bc6-919c-41fe-9989-92a9437252e5")
+		(property "Reference" "D4"
+			(at 80.3275 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 80.3275 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 80.01 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 80.01 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5310951"
+			(at 80.01 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "TPMEG3005EB"
+			(at 80.01 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.03"
+			(at 80.01 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfg" "TECH PUBLIC"
+			(at 80.01 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 80.01 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "62564787-8318-4ecb-a0d8-6d40eee16fa8")
+		)
+		(pin "1"
+			(uuid "9d598b0f-4060-45fc-aad3-df31d1f01dba")
+		)
+		(instances
+			(project "xiaomao"
+				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -15507,7 +16692,7 @@
 			(uuid "e954fba7-1594-42d0-926b-1040722b0e55")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C22")
 					(unit 1)
@@ -15706,7 +16891,7 @@
 				(hide yes)
 			)
 		)
-		(property "mfg" ""
+		(property "mfg" "FH"
 			(at 31.75 120.65 0)
 			(effects
 				(font
@@ -15722,7 +16907,7 @@
 			(uuid "3893635e-3a07-44aa-afe3-740c417f1a1b")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C2")
 					(unit 1)
@@ -15896,7 +17081,7 @@
 			(uuid "b3e9699b-df69-4766-8ba1-320f42e1974d")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR010")
 					(unit 1)
@@ -15905,6 +17090,110 @@
 			(project "RP2040_minimal"
 				(path "/a9862e0d-3ce7-4836-a3aa-a28e96dbe90c"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 266.7 66.04 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ededb09c-d94c-4abf-8e3d-2742e24b5960")
+		(property "Reference" "SW1"
+			(at 262.89 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TD-1183SN-1.7H-160"
+			(at 259.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rhais_button-smd:B3U-1000P"
+			(at 261.62 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411211210_DEALON-TD-1183SN-1-7H-160_C2905194.pdf"
+			(at 261.62 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BTN"
+			(at 266.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2905193"
+			(at 266.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "TD-1183SN-1.7H-160"
+			(at 266.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$.09"
+			(at 266.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfg" "Dealon"
+			(at 266.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "144d0912-212f-4a5d-acee-eb0d23143323")
+		)
+		(pin "2"
+			(uuid "62bc3d05-aa5f-4ce0-b2a8-4c1064f107a8")
+		)
+		(instances
+			(project "xiaomao"
+				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -16005,7 +17294,7 @@
 			(uuid "ca08dd5d-fa13-4713-8d25-b2c00dc7cb16")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "R1")
 					(unit 1)
@@ -16100,7 +17389,7 @@
 				(hide yes)
 			)
 		)
-		(property "mfg" ""
+		(property "mfg" "FH"
 			(at 39.37 120.65 0)
 			(effects
 				(font
@@ -16116,7 +17405,7 @@
 			(uuid "e62ff506-587b-47c2-a3b3-fa206f5520db")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "C1")
 					(unit 1)
@@ -16187,7 +17476,7 @@
 			(uuid "57af488f-3310-4b50-a1d3-6e1727f2830e")
 		)
 		(instances
-			(project "OpenTaxus"
+			(project "xiaomao"
 				(path "/0fe9e493-c481-454c-b8b0-96af10f6ed2d"
 					(reference "#PWR020")
 					(unit 1)
