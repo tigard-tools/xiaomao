@@ -1,5 +1,5 @@
 # Xiǎomāo
-<img alt="Xiǎomāo PCB Render" width="320" align="right" src="https://raw.githubusercontent.com/tigard-tools/xiaomao/master/xiaomao-render.png">
+<img alt="Xiǎomāo PCB Photo" width="320" align="right" src="https://github.com/tigard-tools/xiaomao/releases/download/v2.1/securinghardware-xiaomao-800x600.jpeg">
 
 Xiǎomāo is a development board geared toward hardware hacking and hardware implant design that can safely interfacing with a wide range of logic levels
 
